@@ -1,7 +1,6 @@
 import Layout from '../Layout';
 import Footer from '../Footer/Footer';
 import HomeCover from './homeCover';
-import SelectType from './selectType';
 import UnderSelectType from './underSelectType';
 import AboutusDiv3 from '../about/aboutusDiv3';
 import AboutUsDiv4 from '../about/aboutusDiv4';
@@ -11,6 +10,8 @@ import Largest from './selectLargect';
 import Navigation from '../Navigation';
 import { useCallback, useState } from 'react';
 import CategoryClick from '../categoryClick';
+import Find_Best_Vehicles from './Find_Best_Vehicles';
+import NewRelease from './newRelease/index'
 
 const Home = () => {
     const [show, setShow] = useState(true)
@@ -21,11 +22,14 @@ const Home = () => {
             {show && <div>
                 <Navigation onToggle = {handleToggle}/>
                 <HomeCover/>
-                <SelectType/>
-                <UnderSelectType/>
-                <Servicing/>
-                <Largest/>
+                <Find_Best_Vehicles/>
+                <NewRelease/>
                 <AboutusDiv3/>
+                
+                <Servicing/>
+                
+                <Largest/>
+              
                 <AboutUsDiv4/>
                 <AboutDiv8/>
                 <Footer/>

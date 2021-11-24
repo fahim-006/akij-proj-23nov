@@ -1,6 +1,7 @@
 import img1 from '../home/servicing/images/largest/img1.PNG'
 import img2 from '../home/servicing/images/largest/img2.PNG'
 import img3 from '../home/servicing/images/largest/img3.PNG'
+import SelectLargeBelow from './SelectLargeBelow'
 
 const Largest = () => {
     return(
@@ -25,13 +26,13 @@ const Largest = () => {
 
                             <div className="LargestBackgroundImg">
                                 <img src={img2}/> 
-                                <p className="aboutusHeading1" style={{fontSize: "22px" ,textAlign: "center", left: "50%"}}>Find Bikes</p>
+                                <p className="aboutusHeading1" style={{fontSize: "22px" ,textAlign: "center", left: "50%"}}>Find Pickup</p>
                                 <button className="selectlargeButton">11,542</button>
                             </div>
 
                             <div className="LargestBackgroundImg">
                                 <img src={img3}/>
-                                <p className="aboutusHeading1" style={{fontSize: "22px" ,textAlign: "center", left: "50%"}}>Find Bikes</p>
+                                <p className="aboutusHeading1" style={{fontSize: "22px" ,textAlign: "center", left: "50%"}}>Find Microbus</p>
                                 <button className="selectlargeButton">11,542</button>
                             </div>
 
@@ -39,6 +40,7 @@ const Largest = () => {
                     </div>
                 <div className="col-lg-3 col-md-12 col-sm-12"></div>
             </div>
+            <SelectLargeBelow/>
         </div>
     )
 }

@@ -100,7 +100,7 @@ code {
   padding: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-left: 15px;
+
 }
 
 
@@ -1038,3 +1038,93 @@ margin-right: 20px;
 }
 
 /*n sideBar CSS ends*/
+
+/*Find Top sidebar vehicles CSS*/
+.flex-container-findTopVehicles-sidebar{
+  display: flex;
+  flex-flow: column nowrap;
+  background-color: #EA2224;
+  height: 672px;
+  padding: 27px;
+  width: 300px;
+  overflow: scroll;
+}
+
+.flex-container-findTopVehicles-sidebar::-webkit-scrollbar {
+  display: none;
+}
+
+.flex-item-findTopVehicles-sidebar{
+  color: #ffffff;
+  font-size: 14px;
+  margin-top: 28px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+/*Find Top sidebar vehicles CSS*/
+
+/*Find Top  vehicles CSS*/
+.grid-container-topVehicles{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 15px;
+  height: 672px;
+  background-color: #ffffff;
+  padding: 10px;
+  overflow: scroll;
+}
+
+.grid-container-topVehicles::-webkit-scrollbar {
+  display: none;
+}
+
+.grid-container-topVehicles > div {
+  background-color: #cccccc;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.grid-container-topVehicles > div p{
+    font-size: 16px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.grid-container-topVehicles > div img{
+  width: 80%;  
+}
+/*Find Top sidebar vehicles CSS*/
+
+/*new release CSS*/
+.newRelease{
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.newRelease p{
+  margin-bottom: 50px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #000;
+}
+
+.newRelease h5{
+  margin-bottom: 50px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  color: #000;
+  font-weight: bold;
+}
+
+.newRelease button{
+    background-color: #EA2224;
+    color: #ffffff;
+    padding: 7px;
+    width: 150px;
+    border-radius: 30px;
+    border: 2px solid #960002;
+}
+/*new Release CSS*/
