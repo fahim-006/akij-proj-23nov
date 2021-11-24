@@ -11,38 +11,38 @@ const data = [
 
     
     {
-        name: "VIP MICROBUS",
-        img: './findTopImages/vipMicrobus.png'
+        name: "GOLF CART",
+        img: './findTopImages/golf.png'
     },
 
     
     {
-        name: "VIP MICROBUS",
-        img: './findTopImages/vipMicrobus.png'
+        name: "SPORTS WELDING MACHINE",
+        img: './findTopImages/spot.png'
     },
 
     
     {
-        name: "VIP MICROBUS",
-        img: './findTopImages/vipMicrobus.png'
+        name: "FORKLIFT (MOZDUR) GASOLINE/CNG",
+        img: './findTopImages/forklift.png'
     },
 
     
     {
-        name: "VIP MICROBUS",
-        img: './findTopImages/vipMicrobus.png'
+        name: "DURONTO V6",
+        img: './findTopImages/duronto.png'
     },
 
     
     {
-        name: "VIP MICROBUS",
-        img: './findTopImages/vipMicrobus.png'
+        name: "EXCAVATOR",
+        img: './findTopImages/excavetor.png'
     },
 
     
     {
-        name: "VIP MICROBUS",
-        img: './findTopImages/vipMicrobus.png'
+        name: "WRECKER",
+        img: './findTopImages/wrecker.png'
     },
 ]
 

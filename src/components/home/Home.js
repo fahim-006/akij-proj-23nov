@@ -25,13 +25,8 @@ const Home = () => {
                 <Find_Best_Vehicles/>
                 <NewRelease/>
                 <AboutusDiv3/>
-                
-                <Servicing/>
-                
+                <Servicing/> 
                 <Largest/>
-              
-                <AboutUsDiv4/>
-                <AboutDiv8/>
                 <Footer/>
                 </div>
                 }

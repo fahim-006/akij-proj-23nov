@@ -30,7 +30,7 @@ const Footer = () => {
                                 </div>
                             </div>
                         </div>
-                    <div className="col-lg-2 col-md-12 col-sm-12">
+                    <div className="col-lg-3 col-md-12 col-sm-12">
                         <div class="flex-container-footer-link">
                             <div class="flex-item-footer-link" style={{fontWeight: "bold"}}>
                                 SUPPORT
@@ -53,7 +53,7 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-2 col-md-12 col-sm-12">
+                    <div className="col-lg-3 col-md-12 col-sm-12">
                         <div class="flex-container-footer-link">
                                 <div class="flex-item-footer-link" style={{fontWeight: "bold"}}>
                                     Delearship
@@ -68,7 +68,7 @@ const Footer = () => {
                                 </div>
                         </div>
                     </div>
-                    <div className="col-lg-2 col-md-12 col-sm-12">
+                    <div className="col-lg-3 col-md-12 col-sm-12">
                         <div class="flex-container-footer-link">
                                 <div class="flex-item-footer-link" style={{fontWeight: "bold"}}>
                                     LINKS
@@ -87,16 +87,6 @@ const Footer = () => {
 
                                 <div class="flex-item-footer-link">
                                     Career
-                                </div>
-                            </div>
-                    </div>
-                    <div className="col-lg-2 col-md-12 col-sm-12">
-                        <div class="flex-container-footer-link">
-                                <div class="flex-item-footer-link" style={{fontWeight: "bold"}}>
-                                    Location
-                                </div>
-                                <div class="flex-item-footer-link">
-                                    <img  src={Map} alt="Map" width="150%" className="FooterImage"/>
                                 </div>
                             </div>
                     </div>

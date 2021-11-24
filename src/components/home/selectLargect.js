@@ -5,7 +5,7 @@ import SelectLargeBelow from './SelectLargeBelow'
 
 const Largest = () => {
     return(
-        <div className="container-fluid" style={{marginTop: "60px",marginBottom: "60px" , backgroundColor: "#F7FAFC", }}>
+        <div className="container-fluid" style={{marginTop: "60px", backgroundColor: "#F7FAFC", }}>
             <div className="row">
                 <div className="col-lg-12 col-md-12 col-sm-12">
                     <p className="aboutusHeading" style={{textAlign: "center", left: "50%"}}>Largest Selection of Vehicles</p>
@@ -39,8 +39,9 @@ const Largest = () => {
                         </div>
                     </div>
                 <div className="col-lg-3 col-md-12 col-sm-12"></div>
+                <SelectLargeBelow/>
             </div>
-            <SelectLargeBelow/>
+    
         </div>
     )
 }

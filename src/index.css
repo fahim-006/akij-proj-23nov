@@ -636,7 +636,7 @@ margin-right: 20px;
 
 /*Footer*/
 .footer{
-  background: transparent linear-gradient(99deg, #0357A2 0%, #2B3270 100%) 0% 0% no-repeat padding-box;
+  background: #000000;
   opacity: 1;
   padding: 50px;
 }
@@ -650,6 +650,7 @@ margin-right: 20px;
 .flex-container-footer-link{
 	display: flex;
   padding: 0 50px 0 50px;
+  color: #ffffff;
   margin-top: 20px;
 	/*we can use flex-flow instead of these two lines*/
 	flex-flow: column nowrap;
@@ -1128,3 +1129,34 @@ margin-right: 20px;
     border: 2px solid #960002;
 }
 /*new Release CSS*/
+
+/*Select largest below starts*/
+.selectLarge{
+  background-color: #EA2224;
+  padding: 20px;
+
+  margin-top: 50px;
+}
+
+.selectLargeDiv{
+  margin: 100px;
+
+}
+
+.selectLargeDiv button{
+    background-color: #ffffff;
+    color: #BF0000;
+    width: 150px;
+    margin-top: 50px;
+    border-radius: 30px;
+    border: 2px solid #ffffff;
+}
+
+.selectLargeDiv p{
+  color: #ffffff;
+}
+
+.selectLargeDiv h2{ 
+  color: #ffffff;
+}
+/*Select largest below ends*/
