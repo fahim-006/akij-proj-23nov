@@ -36,7 +36,7 @@ const data = [
     
     {
         name: "EXCAVATOR",
-        img: './findTopImages/excavetor.png'
+        img: './findTopImages/excavetor.PNG'
     },
 
     
@@ -54,7 +54,7 @@ const TopVehicles = () => {
          
                 {data.map((item)=>(
                        <div> 
-                        <img src ={item.img}/>
+                        <img src ={item.img} style={{width: "284px"}}/>
                         <p style={{textAlign: "center"}}>{item.name}</p>
                     </div>
                 ))}

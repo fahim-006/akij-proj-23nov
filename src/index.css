@@ -1028,6 +1028,12 @@ margin-right: 20px;
   cursor: pointer;
 }
 
+.flex-item-main-sidebar:hover{
+  background-color: #EEEEEE;
+  padding-top:15px;
+  padding-left: 1px;
+}
+
 .flex-item-main-subsidebar{
 	margin-bottom: 10px;
 	font-size: 15px;
@@ -1044,7 +1050,7 @@ margin-right: 20px;
 .flex-container-findTopVehicles-sidebar{
   display: flex;
   flex-flow: column nowrap;
-  background-color: #EA2224;
+  background-color: #005AA7;
   height: 672px;
   padding: 27px;
   width: 300px;
@@ -1126,7 +1132,7 @@ margin-right: 20px;
     padding: 7px;
     width: 150px;
     border-radius: 30px;
-    border: 2px solid #960002;
+    border: 2px solid #EA2224;
 }
 /*new Release CSS*/
 
