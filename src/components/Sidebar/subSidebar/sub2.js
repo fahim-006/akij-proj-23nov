@@ -9,7 +9,8 @@ const SubSide2 = () => {
 			</div>
 
 			<div class="flex-item-main-subsidebar">
-				BIJOY 1.5 TON DIESEL
+			<Link to="/bijoyderton" style={{color: "#000000"}} target="_blank"> BIJOY 1.5 TON DIESEL  </Link>
+				
 			</div>
 
 			<div class="flex-item-main-subsidebar">

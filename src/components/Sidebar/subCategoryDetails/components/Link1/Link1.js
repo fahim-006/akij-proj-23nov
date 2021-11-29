@@ -3,11 +3,11 @@ const Link1  = () => {
     return(
         <div className="container-fluid">
             <div className="row" style={{marginTop: "50px", marginBottom:"50px"}}>
-            <div className="col-lg-6 col-md-12 col-sm-12">
+            <div className="col-lg-12 col-md-12 col-sm-12">
                         <img src={miniTrcuk}/>
                 </div>
-                    <div className="col-lg-6 col-md-12 col-sm-12">
-                        <h2>Specifications</h2>
+                    <div className="col-lg-12 col-md-12 col-sm-12">
+                        <h2>Specification</h2>
                     <table class="table">
                         <tbody>
                             <tr>
@@ -16,7 +16,7 @@ const Link1  = () => {
                             </tr>
                             <tr>
                                 <th scope="row">ইঞ্জিন</th>
-                                <td>সুজুকি টেকনোলজি, QC480Q, ভাটিকাল, ইন-লাইন ফোর সিলিন্ডার, ফোর স্টোক,ডাইরেক্ট ইনজেকশন ।</td>
+                                <td>সুজুকি টেকনোলজি, QC480Q, ভাটিকাল, ইন-লাইন ফোর সিলিন্ডার, ফোর স্টোক,ডাইরেক্ট ইনজেকশন।</td>
             
                             </tr>
                             <tr>
