@@ -1176,3 +1176,18 @@ margin-right: 20px;
   color: #ffffff;
 }
 /*Select largest below ends*/
+
+/*Grid container new release start*/
+.grid-new-release {
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto auto;
+  grid-gap: 20px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.grid-container-release > div {
+
+}
+/*Grid container new release end*/

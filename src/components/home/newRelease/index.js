@@ -8,7 +8,7 @@ const NewRelease = () => {
                 <div className="col-lg-6 col-md-12 col-sm-12">
                     <NewReleaseWriting/>
                 </div>
-                <div className="col-lg-6 col-md-12 col-sm-12">
+                <div className="col-lg-6 col-md-12 col-sm-12" style={{alignItems: "center", marginTop: "5%"}}>
                     <img src={image} alt="newRelease Image"/>
             </div>
             </div>
