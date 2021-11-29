@@ -1,0 +1,57 @@
+.testimonial-container {
+  background-color: #f7f7f7;
+  padding: 20px;
+  button {
+    border: none;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+  }
+  .container {
+    .slider-container {
+    }
+    .card {
+      min-height: 260px;
+      margin-left: 25px;
+      padding: 10px;
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+      .client {
+        display: flex;
+        flex-direction: row;
+        .testimonial-img {
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          margin-right: 15px;
+        }
+        h4 {
+          margin-top: 8px;
+        }
+        #second-card {
+          margin-top: 50px;
+          position: absolute;
+          top: 50px;
+        }
+      }
+    }
+  }
+}
+
+.prv__btn {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .prv__icn {
+    color: #000;
+  }
+}
+.fr__btn {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .fr__icn {
+    color: #fff;
+  }
+}
