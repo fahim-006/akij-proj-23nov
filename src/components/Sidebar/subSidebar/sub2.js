@@ -1,9 +1,11 @@
+import { Link } from "react-router-dom";
+
 const SubSide2 = () => {
     return(
    
             <div class="flex-container-main-subsidebar">
 			<div class="flex-item-main-subsidebar">
-				PONKHIRAJ PLUS 1.2 TON DIESEL 
+				<Link to="/PONKHIRAJ_PLUS_TON_DIESEL" style={{color: "#000000"}} target="_blank"> PONKHIRAJ PLUS 1.2 TON DIESEL  </Link>
 			</div>
 
 			<div class="flex-item-main-subsidebar">

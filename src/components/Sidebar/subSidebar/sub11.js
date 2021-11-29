@@ -1,6 +1,5 @@
 const SubSide11 = () => {
     return(
-   
             <div class="flex-container-main-subsidebar">
 
             <div class="flex-item-main-subsidebar" style={{fontWeight: "bold"}}>

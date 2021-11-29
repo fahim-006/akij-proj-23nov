@@ -5,8 +5,7 @@ import Topbar from './topBar';
 const Menu = () => {
     return (
         <>
-        <Topbar/>
-   
+            <Topbar/>   
         </>
     )
 }

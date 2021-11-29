@@ -21,9 +21,17 @@ const SubSide7 = () => {
             <div class="flex-item-main-subsidebar">
                 Musafir Minibus (30 Seat)       
 			</div>
-
+            <div class="flex-item-main-subsidebar" style={{fontWeight: "bold"}}>
+                    Ambulance Diesel/Petrol 
+			</div>
             <div class="flex-item-main-subsidebar">
-                Ambulance Diesel/Petrol       
+                Mini Ambulance Petrol/CNG 
+			</div>
+            <div class="flex-item-main-subsidebar">
+                Hiace Type Ambulance Petrol  
+			</div>
+            <div class="flex-item-main-subsidebar">
+                Hiace Type Ambulance Diesel   
 			</div>
 		</div>
     )
