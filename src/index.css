@@ -123,9 +123,11 @@ code {
 
 /* Hide scrollbar for IE, Edge and Firefox */
 .navCategory {
--ms-overflow-style: none;  /* IE and Edge */
-scrollbar-width: none;  /* Firefox */
-margin-right: 20px;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  margin-right: 20px;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .grid-container {
@@ -1057,7 +1059,6 @@ margin-right: 20px;
   text-decoration: none;
   color: #000;
   font-weight: normal;
-  margin-left: 10px;
   cursor: pointer;
 }
 

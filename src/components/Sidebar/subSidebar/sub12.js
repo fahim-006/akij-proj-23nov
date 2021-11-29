@@ -7,7 +7,7 @@ const SubSide12 = () => {
                     JAPAN MADE ISUZU DIESEL
 			</div>
 
-			<div class="flex-item-main-subsidebar" style={{marginLeft: "50px"}}>
+			<div class="flex-item-main-subsidebar" style={{marginLeft: "0px"}}>
                     2.0 ~ 5.0 TON
 			</div>
 
@@ -15,7 +15,7 @@ const SubSide12 = () => {
                     JAPAN MADE NISSAN PETROL
 			</div>
 
-			<div class="flex-item-main-subsidebar" style={{marginLeft: "50px"}}>
+			<div class="flex-item-main-subsidebar" style={{marginLeft: "0px"}}>
                     2.0 ~ 3.5 TON
 			</div>
 
@@ -23,7 +23,7 @@ const SubSide12 = () => {
                     ELECTRIC/BATTERY FORKLIFT
 			</div>
 
-			<div class="flex-item-main-subsidebar" style={{marginLeft: "50px"}}>
+			<div class="flex-item-main-subsidebar" style={{marginLeft: "0px"}}>
                      2.0 ~ 2.5 TON
 			</div>
 
@@ -31,7 +31,7 @@ const SubSide12 = () => {
                     ELECTRIC STACKER
 			</div>
 
-			<div class="flex-item-main-subsidebar" style={{marginLeft: "50px"}}>
+			<div class="flex-item-main-subsidebar" style={{marginLeft: "0px"}}>
                     1.5 TON
 			</div>
 
@@ -39,7 +39,7 @@ const SubSide12 = () => {
                     HAND PALLET
 			</div>
 
-			<div class="flex-item-main-subsidebar" style={{marginLeft: "50px"}}>
+			<div class="flex-item-main-subsidebar" style={{marginLeft: "0px"}}>
                     3 TON
 			</div>
 
@@ -47,7 +47,7 @@ const SubSide12 = () => {
                         MANUAL STACKER
 			</div>
 
-			<div class="flex-item-main-subsidebar" style={{marginLeft: "50px"}}>
+			<div class="flex-item-main-subsidebar" style={{marginLeft: "0px"}}>
                         1.5 TON
 			</div>
      

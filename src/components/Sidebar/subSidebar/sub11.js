@@ -7,15 +7,15 @@ const SubSide11 = () => {
                     Excavator
 			</div>
 
-			<div class="flex-item-main-subsidebar" style={{marginLeft: "50px"}}>
+			<div class="flex-item-main-subsidebar" style={{marginLeft: "0px"}}>
                 Bucket Capacity 1.1CU.m 
 			</div>
 
-			<div class="flex-item-main-subsidebar" style={{marginLeft: "50px"}}>
+			<div class="flex-item-main-subsidebar" style={{marginLeft: "0px"}}>
                 Bucket Capacity 0.4CU.m   
 			</div>
 
-            <div class="flex-item-main-subsidebar" style={{marginLeft: "50px"}}>
+            <div class="flex-item-main-subsidebar" style={{marginLeft: "0px"}}>
                 Bucket Capacity 0.36CU.m  
 			</div>
 
@@ -23,15 +23,15 @@ const SubSide11 = () => {
                     WHEEL LOADER
 			</div>
 
-            <div class="flex-item-main-subsidebar" style={{marginLeft: "50px"}}>
+            <div class="flex-item-main-subsidebar" style={{marginLeft: "0px"}}>
                 Bucket Capacity 3.0CU.m  
 			</div>
 
-			<div class="flex-item-main-subsidebar" style={{marginLeft: "50px"}}>
+			<div class="flex-item-main-subsidebar" style={{marginLeft: "0px"}}>
                 Bucket Capacity 1.8CU.m  
 			</div>
 
-            <div class="flex-item-main-subsidebar" style={{marginLeft: "50px"}}>
+            <div class="flex-item-main-subsidebar" style={{marginLeft: "0px"}}>
                 Bucket Capacity 2.3CU.m   
 			</div> 
 
@@ -39,7 +39,7 @@ const SubSide11 = () => {
                     Backhoe Loader
 			</div>
 
-            <div class="flex-item-main-subsidebar" style={{marginLeft: "50px"}}>
+            <div class="flex-item-main-subsidebar" style={{marginLeft: "0px"}}>
                 Bucket Capacity 1.0CU.m 
 			</div>
  
@@ -49,15 +49,15 @@ const SubSide11 = () => {
 
 			</div>
 
-            <div class="flex-item-main-subsidebar" style={{marginLeft: "50px"}}>
+            <div class="flex-item-main-subsidebar" style={{marginLeft: "0px"}}>
                 Double Drum 3 Ton  
 			</div>
 
-            <div class="flex-item-main-subsidebar" style={{marginLeft: "50px"}}>
+            <div class="flex-item-main-subsidebar" style={{marginLeft: "0px"}}>
                 Single Drum 10 Ton   
 			</div>
 
-            <div class="flex-item-main-subsidebar" style={{marginLeft: "50px"}}>
+            <div class="flex-item-main-subsidebar" style={{marginLeft: "0px"}}>
                 Single Drum 14 Ton
 			</div>
 		</div>
