@@ -12,6 +12,9 @@ import { useCallback, useState } from 'react';
 import CategoryClick from '../categoryClick';
 import Find_Best_Vehicles from './Find_Best_Vehicles';
 import NewRelease from './newRelease/index'
+import Carousel from './Carousel'
+
+
 
 const Home = () => {
     const [show, setShow] = useState(true)
@@ -21,7 +24,7 @@ const Home = () => {
                       
             {show && <div>
                 <Navigation onToggle = {handleToggle}/>
-                <HomeCover/>
+                <Carousel/>
                 <Find_Best_Vehicles/>
                 <NewRelease/>
                 <AboutusDiv3/>

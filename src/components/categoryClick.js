@@ -1,3 +1,4 @@
+import Carousel from './home/Carousel'
 import HomeCoverClick from "./HomeCoverClick";
 import Sidebar from "./Sidebar";
 
@@ -10,8 +11,8 @@ const CategoryClick = () => {
                 </div>
                   
                 <div className="col-lg-10 col-md-12 col-sm-12" 
-                style={{opacity: "0.5",  background: 'transparent linear-gradient(180deg, #BF0000 0%, #A40000 100%, #808080 100%) 0% 0% no-repeat padding-box' }}>
-                        <HomeCoverClick/>
+                style={{opacity: "0.5" }}>
+                        <Carousel/>
                 </div>
             </div>
         </div>
