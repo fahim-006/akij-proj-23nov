@@ -59,6 +59,8 @@ code {
 .navLi {
   float: right;
   text-decoration: none;
+  font-size: 12px;
+  font-family: 'Poppins Medium','arial';
   text-align: center;
 }
 
@@ -1243,6 +1245,7 @@ code {
   display: block;
   margin-left: auto;
   margin-right: 70px;
+  margin-top: 100px;
   width: 80%;
 }
 
@@ -1257,6 +1260,6 @@ code {
 .akij_new_car_headline{
   width: 590px;
   margin-left: 50%;
-  margin-top: 50px;
+  margin-top: 70px;
 }
 /*Private Vehicles*/

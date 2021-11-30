@@ -51,7 +51,7 @@ const data = [
 const TopVehicles = () => {
     return(
         <>
-        <div class="grid-container-topVehicles">
+        <div className="grid-container-topVehicles">
          
                 {data.map((item)=>(
                        <div> 
