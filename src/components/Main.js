@@ -8,6 +8,7 @@ import PonkhirajPlus from './Sidebar/subCategoryDetails/components/Link4/Ponkhir
 import BijoyderTon from './Sidebar/subCategoryDetails/components/Link5/BijoyderTon';
 import BijoyTinTon from './Sidebar/subCategoryDetails/components/Link6/BijoyTinTon';
 import PrivateVehicles from './Private_vehicles';
+import ContactwithUs from './pages/Contact';
 
 const Main = () => {
     return (
@@ -23,6 +24,7 @@ const Main = () => {
             <Route path= "/bijoyderton" component={BijoyderTon}/>
             <Route path= "/bijoytinton" component={BijoyTinTon}/>
             <Route path= "/private_vehicles" component={PrivateVehicles}/>
+            <Route path= "/contactUs" component={ContactwithUs}/>
         </Switch>
     </div>
     )

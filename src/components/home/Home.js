@@ -32,7 +32,6 @@ const Home = () => {
                 <Servicing/> 
                 <Largest/>
                 <Blog/>
-              
                 <Footer/>
                 </div>
                 }

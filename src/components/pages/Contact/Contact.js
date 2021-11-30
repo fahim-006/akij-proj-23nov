@@ -73,7 +73,7 @@ function Contact() {
                   </small>
                   <br />
                   <button className="submit__btn mb-3 mt-3">
-                    SEND A MESSAGE <CgArrowLongRight className="btnArrow" />
+                    SEND A MESSAGE
                   </button>
                 </form>
               </div>
