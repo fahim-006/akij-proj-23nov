@@ -7,6 +7,7 @@ import Druti from './Sidebar/subCategoryDetails/components/Link2/Druti';
 import PonkhirajPlus from './Sidebar/subCategoryDetails/components/Link4/PonkhirajPlus.js';
 import BijoyderTon from './Sidebar/subCategoryDetails/components/Link5/BijoyderTon';
 import BijoyTinTon from './Sidebar/subCategoryDetails/components/Link6/BijoyTinTon';
+import PrivateVehicles from './Private_vehicles';
 
 const Main = () => {
     return (
@@ -21,6 +22,7 @@ const Main = () => {
             <Route path= "/PONKHIRAJ_PLUS_TON_DIESEL" component={PonkhirajPlus}/>
             <Route path= "/bijoyderton" component={BijoyderTon}/>
             <Route path= "/bijoytinton" component={BijoyTinTon}/>
+            <Route path= "/private_vehicles" component={PrivateVehicles}/>
         </Switch>
     </div>
     )

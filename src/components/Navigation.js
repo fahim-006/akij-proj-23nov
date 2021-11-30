@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Navigation = ({onToggle}) => {
       const [show, setShow] = useState("false");
@@ -30,15 +31,15 @@ const Navigation = ({onToggle}) => {
                         ></path>
                         </svg> CATEGORIES
                         </div>
-                              <div className="item">COMMERCIAL VEHICLE</div>
-                              <div className="item">PRIVATE VEHICLE</div>
-                              <div className="item">MOTOR SERVICING</div>  
-                              <div className="item">GARAGE EQUIPMENTS</div>
-                              <div className="item">SPARE PARTS</div>
-                              <div className="item">ELECTRIC MOTORCYCLE</div>
-                              <div className="item">FORLIFT/STACKER</div>
-                              <div className="item">CONSTRUCTION MACHINERY</div>
-                              <div className="item">SPECIAL VEHICLE</div>
+                              <div className="Navitem">COMMERCIAL VEHICLE</div>
+                              <Link to="/private_vehicles"> <div className="Navitem">PRIVATE VEHICLE</div></Link>
+                              <div className="Navitem">MOTOR SERVICING</div>  
+                              <div className="Navitem">GARAGE EQUIPMENTS</div>
+                              <div className="Navitem">SPARE PARTS</div>
+                              <div className="Navitem">ELECTRIC MOTORCYCLE</div>
+                              <div className="Navitem">FORLIFT/STACKER</div>
+                              <div className="Navitem">CONSTRUCTION MACHINERY</div>
+                              <div className="Navitem">SPECIAL VEHICLE</div>
                         </div>
 
               </div>

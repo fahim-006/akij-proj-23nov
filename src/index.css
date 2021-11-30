@@ -95,6 +95,12 @@ code {
     overflow: scroll;
 }
 
+.Navitem{
+  color: #ffffff;
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .topbar{
   height: auto;
   padding: 20px;
@@ -1202,3 +1208,41 @@ code {
 
 }
 /*Grid container new release end*/
+
+
+/*Private Vehicles*/
+.content_ambulance_performance{
+  text-align: justify;
+  align-items: center;
+  margin: 5% 0% 0% 20%;
+  width: 690px;
+}
+
+.content_ambulance_performance_head{
+  text-align: justify;
+  align-items: center;
+  margin: 20% 0% 0% 20%;
+  width: 490px;
+}
+
+.content_ambulance_performance_image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.content_ambulance_performance_image_main{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.content_ambulance_performance_Haice_image_main{
+  display: block;
+  margin-left: auto;
+  margin-right: 70px;
+  width: 80%;
+}
+/*Private Vehicles*/
