@@ -2,6 +2,7 @@ import React from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import banner__side0 from "../../../images/img1.PNG";
 import banner__side1 from "../../../images/banner__side1.jpg";
 import banner__side2 from "../../../images/banner__side2.jpg";
 import banner__side3 from "../../../images/banner__side3.jpg";
@@ -23,7 +24,7 @@ function TopSliderPrivateVehicles() {
     <div style={{ overflow: "hidden" }}>
       <Slider {...settings}>
         <div className="slider-image" style={{ border: "1px solid red" }}>
-          <img src={banner__side1} alt="" srcset="" />
+          <img src={banner__side0} alt="" srcset="" />
         </div>
         <div className="slider-image">
           <img src={banner__side2} alt="" srcset="" />

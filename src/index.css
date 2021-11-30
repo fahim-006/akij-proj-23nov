@@ -1245,4 +1245,18 @@ code {
   margin-right: 70px;
   width: 80%;
 }
+
+.akij_new_car_paragraph{
+  width: 590px;
+  margin-left: 40%;
+  text-align:center;
+  font-size: 17px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.akij_new_car_headline{
+  width: 590px;
+  margin-left: 50%;
+  margin-top: 50px;
+}
 /*Private Vehicles*/

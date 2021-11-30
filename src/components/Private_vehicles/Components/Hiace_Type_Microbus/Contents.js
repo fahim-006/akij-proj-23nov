@@ -59,7 +59,7 @@ const Contents = () => {
             <div>
                     <h6>Conditional warranty: 6-month warrenty for Battery, Motor and Controller.</h6>  
                 </div>
-        <button>Learn more</button>
+        <button style={{marginBottom: "30px"}}>Learn more</button>
     </div>
     )
 }

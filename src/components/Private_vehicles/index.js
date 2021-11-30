@@ -8,6 +8,7 @@ import CategoryClick from "../categoryClick";
 import Featured_Private_Vehicles from "./Components/Featured_Private_Vehicles";
 import Ambulance_Performance from "./Components/Ambulance_Performance";
 import Hiace_Type_Microbus from "./Components/Hiace_Type_Microbus";
+import Akij_New_Car from "./Components/Akij_New_car";
 
 
 const PrivateVehicles = () => {
@@ -23,6 +24,7 @@ const PrivateVehicles = () => {
                 <Featured_Private_Vehicles/>
                 <Ambulance_Performance/>
                 <Hiace_Type_Microbus/>
+                <Akij_New_Car/>
                 <Footer/>
                 </div>
                 }
