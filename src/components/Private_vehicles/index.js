@@ -9,6 +9,8 @@ import Featured_Private_Vehicles from "./Components/Featured_Private_Vehicles";
 import Ambulance_Performance from "./Components/Ambulance_Performance";
 import Hiace_Type_Microbus from "./Components/Hiace_Type_Microbus";
 import Akij_New_Car from "./Components/Akij_New_car";
+import Blog from '../Blog'
+import Greatest_Pleasure from "./Components/Greatest Pleasure";
 
 
 const PrivateVehicles = () => {
@@ -25,6 +27,8 @@ const PrivateVehicles = () => {
                 <Ambulance_Performance/>
                 <Hiace_Type_Microbus/>
                 <Akij_New_Car/>
+                <Greatest_Pleasure/>
+                <Blog/>
                 <Footer/>
                 </div>
                 }
