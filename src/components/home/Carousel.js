@@ -17,25 +17,78 @@ const Carousel = () => {
         pauseOnHover: true,
         cssEase: "linear"
       };
+
+      let currentURL = window.location.href;
+      const currentURLSplit = currentURL.split("/");
+
+
+
       return (
         <div style={{overflow: 'hidden'}}>
-          <Slider  {...settings}>
+         
+         {currentURLSplit[1] == ""?  
+              <>
+               <Slider  {...settings}>
 
-          <div className="slider-image">
-                <img src="images/akij motor banner-04.jpg" alt="" srcset="" />
-            </div>
-            <div className="slider-image" style={{border:'1px solid red'}}>
-              <img src="images/akij motor banner-01.jpg" alt="" srcset="" />
-            </div>
-        
-            <div className="slider-image">
-                <img src="images/akij motor banner-03.jpg" alt="" srcset="" />
-            </div>
+               <div className="slider-image">
+               <img src="images/slider/Home/1-min.jpg" alt="" srcset="" />
+             </div>
+             <div className="slider-image" style={{border:'1px solid red'}}>
+             <img src="images/slider/Home/2-min.jpg" alt="" srcset="" />
+             </div>
+
+             <div className="slider-image">
+             <img src="images/slider/Home/3-min.jpg" alt="" srcset="" />
+             </div>
+
+             <div className="slider-image">
+             <img src="images/slider/Home/4-min.jpg" alt="" srcset="" />
+             </div>
+
+             <div className="slider-image">
+             <img src="images/slider/Home/5-min.jpg" alt="" srcset="" />
+             </div>
+
+             <div className="slider-image">
+             <img src="images/slider/Home/6-min.jpg" alt="" srcset="" />
+             </div>
+
+             <div className="slider-image">
+             <img src="images/slider/Home/7-min.jpg" alt="" srcset="" />
+             </div>
+
+             <div className="slider-image">
+             <img src="images/slider/Home/8-min.jpg" alt="" srcset="" />
+             </div>
+
+             <div className="slider-image">
+             <img src="images/slider/Home/9-min.jpg" alt="" srcset="" />
+             </div>
+
+             <div className="slider-image">
+             <img src="images/slider/Home/10-min.jpg" alt="" srcset="" />
+             </div>
+
+             <div className="slider-image">
+             <img src="images/slider/Home/11-min.jpg" alt="" srcset="" />
+             </div>
+
+             <div className="slider-image">
+             <img src="images/slider/Home/12-min.jpg" alt="" srcset="" />
+             </div>
+
+             <div className="slider-image">
+             <img src="images/slider/Home/13-min.jpg" alt="" srcset="" />
+             </div>
+
            
-            <div className="slider-image">
-                <img src="images/akij motor banner-05.jpg" alt="" srcset="" />
-            </div>
-          </Slider>
+             </Slider>
+
+             </>
+        : ""}
+
+         
+
         </div>
       );
 };

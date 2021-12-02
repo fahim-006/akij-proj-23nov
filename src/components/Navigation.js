@@ -29,17 +29,17 @@ const Navigation = ({onToggle}) => {
                               strokeWidth="48"
                               d="M88 152h336M88 256h336M88 360h336"
                         ></path>
-                        </svg> CATEGORIES
+                        </svg> CATEGORIES      
                         </div>
-                              <div className="Navitem">COMMERCIAL VEHICLE</div>
-                              <Link to="/private_vehicles"> <div className="Navitem">PRIVATE VEHICLE</div></Link>
-                              <div className="Navitem">MOTOR SERVICING</div>  
-                              <div className="Navitem">GARAGE EQUIPMENTS</div>
-                              <div className="Navitem">SPARE PARTS</div>
-                              <div className="Navitem">ELECTRIC MOTORCYCLE</div>
-                              <div className="Navitem">FORLIFT/STACKER</div>
-                              <div className="Navitem">CONSTRUCTION MACHINERY</div>
-                              <div className="Navitem">SPECIAL VEHICLE</div>
+                              <Link to="/commercial_vehicles" style={{textDecoration: "none"}}><div className="Navitem">COMMERCIAL VEHICLE</div></Link>
+                              <Link to="/private_vehicles" style={{textDecoration: "none"}}> <div className="Navitem">PRIVATE VEHICLE</div></Link>
+                              <Link to="/motor_servicing" style={{textDecoration: "none"}}> <div className="Navitem">MOTOR SERVICING</div></Link>
+                              <Link to="/garage_equipment" style={{textDecoration: "none"}}><div className="Navitem">GARAGE EQUIPMENTS</div></Link>
+                              <Link to="/spare_parts" style={{textDecoration: "none"}}><div className="Navitem">SPARE PARTS</div></Link>
+                              <Link to="/electric_motorcycle" style={{textDecoration: "none"}}><div className="Navitem">ELECTRIC MOTORCYCLE</div></Link>
+                              <Link to="/forlift" style={{textDecoration: "none"}}><div className="Navitem">FORLIFT/STACKER</div></Link>
+                              <Link to="/construction_machinery" style={{textDecoration: "none"}}><div className="Navitem">CONSTRUCTION MACHINERY</div></Link>
+                              <Link to="/special_vehicles" style={{textDecoration: "none"}}><div className="Navitem">SPECIAL VEHICLE</div></Link>
                         </div>
 
               </div>
