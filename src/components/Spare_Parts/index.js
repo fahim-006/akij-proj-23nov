@@ -4,10 +4,10 @@ import { useCallback, useState } from "react";
 import Layout from "../Layout";
 import Footer from "../Footer/Footer";
 import CategoryClick from "../categoryClick";
+import Carousel from '../home/Carousel'
 
 
-
-const SpareParts = () => {
+const SpareParts_sidebar = () => {
     const [show, setShow] = useState(true)
     const handleToggle = useCallback(()=> setShow(prevShow => !prevShow), []);
     return (
@@ -16,7 +16,7 @@ const SpareParts = () => {
                       
             {show && <div>
                 <Navigation onToggle = {handleToggle}/>
-            
+                <Carousel/>
                 <Footer/>
                 </div>
                 }
@@ -31,4 +31,4 @@ const SpareParts = () => {
         </>
     )
     }
-export default SpareParts;
+export default SpareParts_sidebar;

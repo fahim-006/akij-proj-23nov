@@ -37,7 +37,7 @@ const Navigation = ({onToggle}) => {
                               <Link to="/garage_equipment" style={{textDecoration: "none"}}><div className="Navitem">GARAGE EQUIPMENTS</div></Link>
                               <Link to="/spare_parts" style={{textDecoration: "none"}}><div className="Navitem">SPARE PARTS</div></Link>
                               <Link to="/electric_motorcycle" style={{textDecoration: "none"}}><div className="Navitem">ELECTRIC MOTORCYCLE</div></Link>
-                              <Link to="/forlift" style={{textDecoration: "none"}}><div className="Navitem">FORLIFT/STACKER</div></Link>
+                              <Link to="/forlift" style={{textDecoration: "none"}}><div className="Navitem">FORKLIFT/STACKER</div></Link>
                               <Link to="/construction_machinery" style={{textDecoration: "none"}}><div className="Navitem">CONSTRUCTION MACHINERY</div></Link>
                               <Link to="/special_vehicles" style={{textDecoration: "none"}}><div className="Navitem">SPECIAL VEHICLE</div></Link>
                         </div>

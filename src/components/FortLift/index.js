@@ -4,8 +4,7 @@ import { useCallback, useState } from "react";
 import Layout from "../Layout";
 import Footer from "../Footer/Footer";
 import CategoryClick from "../categoryClick";
-
-
+import Carousel from '../home/Carousel'
 
 const Forlift = () => {
     const [show, setShow] = useState(true)
@@ -16,7 +15,7 @@ const Forlift = () => {
                       
             {show && <div>
                 <Navigation onToggle = {handleToggle}/>
-            
+                <Carousel/>
                 <Footer/>
                 </div>
                 }

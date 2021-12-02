@@ -11,7 +11,7 @@ import Hiace_Type_Microbus from "./Components/Hiace_Type_Microbus";
 import Akij_New_Car from "./Components/Akij_New_car";
 import Blog from '../Blog'
 import Greatest_Pleasure from "./Components/Greatest Pleasure";
-
+import Carousel from '../home/Carousel'
 
 const PrivateVehicles = () => {
     const [show, setShow] = useState(true)
@@ -22,7 +22,7 @@ const PrivateVehicles = () => {
                       
             {show && <div>
                 <Navigation onToggle = {handleToggle}/>
-                <TopSliderPrivateVehicles/>
+               <Carousel/>
                 <Featured_Private_Vehicles/>
                 <Ambulance_Performance/>
                 <Hiace_Type_Microbus/>

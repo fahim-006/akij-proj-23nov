@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import SubSide1 from "./subSidebar/sub1";
 import SubSide10 from "./subSidebar/sub10";
 import SubSide11 from "./subSidebar/sub11";
@@ -388,97 +389,131 @@ const MainColSidebar = () => {
 		</div>
 
 		<div className="flex-item-main-sidebar" onClick={toggleSub1}>
-			<i className="fas fa-truck-pickup"></i>&nbsp; &nbsp;Mini truck/Pickup
+			<Link to="/commercial_vehicles_sidebar_mini_truck" style={{textDecoration: "none", color: "#000000"}}> 
+            <i className="fas fa-truck-pickup"></i>&nbsp; &nbsp;Mini truck/Pickup </Link>
             {show1 &&  <SubSide1/>}           
             <hr/>
 		</div>
-
+        
 		<div className="flex-item-main-sidebar" onClick={toggleSub2}>
+        <Link to="/light_duty_sidebar" style={{textDecoration: "none", color: "#000000"}}> 
 			<i className="fas fa-truck"></i>&nbsp; &nbsp;Light Duty Truck
+            </Link>
             {show2 &&  <SubSide2/>} 
             <hr/>
 		</div>
 
+        
+
 		<div className="flex-item-main-sidebar" onClick={toggleSub3}>
+        <Link to="/meduim_duty_sidebar" style={{textDecoration: "none", color: "#000000"}}> 
 			<i className="fas fa-truck-monster"></i>&nbsp; &nbsp;Medium Duty Truck
+            </Link>
             {show3 &&  <SubSide3/>} 
             <hr/>	
 		</div>
 
 		<div className="flex-item-main-sidebar" onClick={toggleSub4}>
+        <Link to="/heavy_duty_sidebar" style={{textDecoration: "none", color: "#000000"}}> 
 			<i className="fas fa-truck-moving"></i>&nbsp; &nbsp;Heavy Duty Cargo Truck
+            </Link>
             {show4 &&  <SubSide4/>} 
             <hr/>
 		</div>
-
+        
 		<div className="flex-item-main-sidebar" onClick={toggleSub5}>
+        <Link to="/dump_truck" style={{textDecoration: "none", color: "#000000"}}> 
 			<i className="fa fa-truck" aria-hidden="true"></i>&nbsp; &nbsp;Dump Truck/Tipper
+            </Link>
             {show5 &&  <SubSide5/>} 
             <hr/>
 		</div>
 
 		<div className="flex-item-main-sidebar" onClick={toggleSub6}>
+        <Link to="/prime_mover" style={{textDecoration: "none", color: "#000000"}}> 
 			<i className="fas fa-trailer"></i>&nbsp; &nbsp;Prime Mover/Trailer
+        </Link>
+
             {show6 &&  <SubSide6/>} 
             <hr/> 
 		</div>
 
 		<div className="flex-item-main-sidebar" onClick={toggleSub7}>
+        <Link to="/microbus" style={{textDecoration: "none", color: "#000000"}}> 
 			<i className="fa fa-ambulance" aria-hidden="true"></i>&nbsp; &nbsp;Microbus/Ambulance
+        </Link>
             {show7 &&  <SubSide7/>} 
             <hr/> 
 		</div>
-
+        
 		<div className="flex-item-main-sidebar" onClick={toggleSub8}>
+        <Link to="/special_vehicle_sidebar" style={{textDecoration: "none", color: "#000000"}}> 
 			<i className="fas fa-car-side"></i>&nbsp; &nbsp;Special Purpose Vehicle
+            </Link>
             {show8 &&  <SubSide8/>}
             <hr/> 
 		</div>
 
 		<div className="flex-item-main-sidebar" onClick={toggleSub9}>
+        <Link to="/rmc_sidebar" style={{textDecoration: "none", color: "#000000"}}> 
 			<i className="fas fa-dumpster"></i>&nbsp; &nbsp;RMC/Cement Bulk-carrier
+        </Link>
             {show9 &&  <SubSide9/>}
             <hr/>
 		</div>
 
 		<div className="flex-item-main-sidebar" onClick={toggleSub10}>
+        <Link to="/concrete_sidebar" style={{textDecoration: "none", color: "#000000"}}> 
 			<i className="fas fa-wrench"></i>&nbsp; &nbsp;Concrete Machinery
+            </Link>
             {show10 &&  <SubSide10/>}
             <hr/> 
 		</div>
 
 		<div className="flex-item-main-sidebar" onClick={toggleSub11}> 
+        <Link to="/construction_sidebar" style={{textDecoration: "none", color: "#000000"}}> 
 			<i className="fas fa-hammer"></i>&nbsp; &nbsp;Construction Machinery
+        </Link>
             {show11 &&  <SubSide11/>}
             <hr/> 
 		</div>
-
+        
 		<div className="flex-item-main-sidebar" onClick={toggleSub12}>
+        <Link to="/forklit_sidebar" style={{textDecoration: "none", color: "#000000"}}> 
 			<i className="fas fa-pallet"></i>&nbsp; &nbsp;Forklift/Stacker/Pallet
+            </Link>
             {show12 &&  <SubSide12/>}
             <hr/> 
 		</div>
 
 		<div className="flex-item-main-sidebar" onClick={toggleSub13}>
+        <Link to="/electric_motorcycle_sidebar" style={{textDecoration: "none", color: "#000000"}}> 
 			<i className="fas fa-motorcycle"></i>&nbsp; &nbsp;Electric Motorcycle
+            </Link>
             {show13 &&  <SubSide13/>}
             <hr/> 
 		</div>
 
 		<div className="flex-item-main-sidebar" onClick={toggleSub14}>
+        <Link to="/garage_equipment_sidebar" style={{textDecoration: "none", color: "#000000"}}> 
 			<i className="fas fa-warehouse"></i>&nbsp; &nbsp;Garage Equipment
+            </Link>
             {show14 &&  <SubSide14/>}
             <hr/> 
 		</div>
 
 		<div className="flex-item-main-sidebar" onClick={toggleSub15}>
+        <Link to="/motor_servicing_sidebar" style={{textDecoration: "none", color: "#000000"}}> 
 			<i className="fas fa-users-cog"></i>&nbsp; &nbsp;Motor Servicing
+            </Link>
             {show15 &&  <SubSide15/>}
             <hr/> 
 		</div>
 
 		<div className="flex-item-main-sidebar">
+        <Link to="/spareparts_sidebar" style={{textDecoration: "none", color: "#000000"}}> 
 			<i className="fas fa-tools"></i>&nbsp; &nbsp;Spare Parts
+            </Link>
             <hr/>
 		</div>
 
@@ -486,15 +521,19 @@ const MainColSidebar = () => {
 			<i className="fas fa-holly-berry"></i>&nbsp; &nbsp;Car Decoration Item
             <hr/> 
 		</div>
-
+        
 		<div className="flex-item-main-sidebar" onClick={toggleSub19}>
+        <Link to="/battery_sidebar" style={{textDecoration: "none", color: "#000000"}}> 
 			<i className="fas fa-car"></i>&nbsp; &nbsp;Battery/Electric Vehicle
+            </Link>
             {show19 &&  <SubSide19/>}
             <hr/> 
 		</div>
 
 		<div className="flex-item-main-sidebar" onClick={toggleSub20}>
+        <Link to="/akij_cng_sidebar" style={{textDecoration: "none", color: "#000000"}}> 
 			<i className="fas fa-gas-pump"></i>&nbsp; &nbsp;AKIJ CNG/LPG Products
+            </Link>
             {show20 &&  <SubSide20/>}
             <hr/> 
 		</div>
