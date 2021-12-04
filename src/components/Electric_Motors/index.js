@@ -6,6 +6,10 @@ import Footer from "../Footer/Footer";
 import CategoryClick from "../categoryClick";
 import Carousel from '../home/Carousel'
 import Find_Best_Vehicles_Electric_Motor from './Find_Best_Vehicles';
+import New_Release_Electric_motor from './components/New_Release';
+import MotorSathi from './components/motorSathi';
+import Choose from './components/Choose';
+import Benefits from './components/benefits';
 
 const ElectricMotorcyle = () => {
     const [show, setShow] = useState(true)
@@ -18,6 +22,10 @@ const ElectricMotorcyle = () => {
                 <Navigation onToggle = {handleToggle}/>
                 <Carousel/>
                 <Find_Best_Vehicles_Electric_Motor/>
+                <New_Release_Electric_motor/>
+                <MotorSathi/>
+                <Choose/>
+                <Benefits/>
                 <Footer/>
                 </div>
                 }
