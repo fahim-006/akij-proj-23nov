@@ -10,6 +10,7 @@ import New_Release_Electric_motor from './components/New_Release';
 import MotorSathi from './components/motorSathi';
 import Choose from './components/Choose';
 import Benefits from './components/benefits';
+import BlogsandNews from './components/BlogsandNews';
 
 const ElectricMotorcyle = () => {
     const [show, setShow] = useState(true)
@@ -26,6 +27,7 @@ const ElectricMotorcyle = () => {
                 <MotorSathi/>
                 <Choose/>
                 <Benefits/>
+                <BlogsandNews/>
                 <Footer/>
                 </div>
                 }
