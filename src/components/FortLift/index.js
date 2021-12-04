@@ -5,6 +5,7 @@ import Layout from "../Layout";
 import Footer from "../Footer/Footer";
 import CategoryClick from "../categoryClick";
 import Carousel from '../home/Carousel'
+import Find_Best_Vehicles_Forklift from './Find_Best_Vehicles';
 
 const Forlift = () => {
     const [show, setShow] = useState(true)
@@ -16,6 +17,7 @@ const Forlift = () => {
             {show && <div>
                 <Navigation onToggle = {handleToggle}/>
                 <Carousel/>
+                <Find_Best_Vehicles_Forklift/>
                 <Footer/>
                 </div>
                 }

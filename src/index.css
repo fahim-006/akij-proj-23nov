@@ -1106,6 +1106,36 @@ code {
   overflow: scroll;
 }
 
+.grid-container-topVehicles1{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 15px;
+  height: 172px;
+  background-color: #ffffff;
+  padding: 10px;
+  overflow: scroll;
+}
+
+.grid-container-topVehicles1::-webkit-scrollbar {
+  display: none;
+}
+
+.grid-container-topVehicles1 > div {
+  background-color: #cccccc;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.grid-container-topVehicles1 > div p{
+    font-size: 16px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
 .grid-container-topVehicles::-webkit-scrollbar {
   display: none;
 }

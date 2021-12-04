@@ -5,6 +5,7 @@ import Layout from "../Layout";
 import Footer from "../Footer/Footer";
 import CategoryClick from "../categoryClick";
 import Carousel from '../home/Carousel'
+import Find_Best_Vehicles_Electric_Motor from './Find_Best_Vehicles';
 
 const ElectricMotorcyle = () => {
     const [show, setShow] = useState(true)
@@ -16,6 +17,7 @@ const ElectricMotorcyle = () => {
             {show && <div>
                 <Navigation onToggle = {handleToggle}/>
                 <Carousel/>
+                <Find_Best_Vehicles_Electric_Motor/>
                 <Footer/>
                 </div>
                 }

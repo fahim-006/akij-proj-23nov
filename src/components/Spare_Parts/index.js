@@ -5,6 +5,7 @@ import Layout from "../Layout";
 import Footer from "../Footer/Footer";
 import CategoryClick from "../categoryClick";
 import Carousel from '../home/Carousel'
+import Find_Best_Vehicles_SpareParts from './Find_Best_Vehicles';
 
 
 const SpareParts_sidebar = () => {
@@ -17,6 +18,7 @@ const SpareParts_sidebar = () => {
             {show && <div>
                 <Navigation onToggle = {handleToggle}/>
                 <Carousel/>
+                <Find_Best_Vehicles_SpareParts/>
                 <Footer/>
                 </div>
                 }
