@@ -7,6 +7,10 @@ import CategoryClick from "../categoryClick";
 import Carousel from '../home/Carousel'
 import Find_Best_Vehicles_Motor_Servicing from './Find_Best_Vehicles';
 import Best_services from './BestServices';
+import ServicingAreas from './ServicingArea';
+import ServicingFeatures from './Features';
+import TwentyYearsExp from './twentyYearsExp';
+import Blog from '../Blog'
 
 
 const MotorServicing = () => {
@@ -21,6 +25,10 @@ const MotorServicing = () => {
                 <Carousel/>
                 <Find_Best_Vehicles_Motor_Servicing/>
                 <Best_services/>
+                <ServicingAreas/>
+                <ServicingFeatures/>
+                <TwentyYearsExp/>
+                <Blog/>
                 <Footer/>
                 </div>
                 }
