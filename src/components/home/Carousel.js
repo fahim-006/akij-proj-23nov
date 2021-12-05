@@ -7,7 +7,7 @@ import './Carousel.css';
 
 const Carousel = () => {
     let settings = {
-        dots: true,
+        dots: false,
         infinite: true,
         speed: 1500,
         slidesToShow: 1,
@@ -28,54 +28,54 @@ const Carousel = () => {
               <>
                <Slider  {...settings}>
 
-               <div className="slider-image">
+               <div className="slider-image1">
                <img src="images/slider/Home/1-min.jpg" alt="" srcset="" />
              </div>
-             <div className="slider-image" style={{border:'1px solid red'}}>
+             <div className="slider-image1" style={{border:'1px solid red'}}>
              <img src="images/slider/Home/2-min.jpg" alt="" srcset="" />
              </div>
 
-             <div className="slider-image">
+             <div className="slider-image1">
              <img src="images/slider/Home/3-min.jpg" alt="" srcset="" />
              </div>
 
-             <div className="slider-image">
+             <div className="slider-image1">
              <img src="images/slider/Home/4-min.jpg" alt="" srcset="" />
              </div>
 
-             <div className="slider-image">
+             <div className="slider-image1">
              <img src="images/slider/Home/5-min.jpg" alt="" srcset="" />
              </div>
 
-             <div className="slider-image">
+             <div className="slider-image1">
              <img src="images/slider/Home/6-min.jpg" alt="" srcset="" />
              </div>
 
-             <div className="slider-image">
+             <div className="slider-image1">
              <img src="images/slider/Home/7-min.jpg" alt="" srcset="" />
              </div>
 
-             <div className="slider-image">
+             <div className="slider-image1">
              <img src="images/slider/Home/8-min.jpg" alt="" srcset="" />
              </div>
 
-             <div className="slider-image">
+             <div className="slider-image1">
              <img src="images/slider/Home/9-min.jpg" alt="" srcset="" />
              </div>
 
-             <div className="slider-image">
+             <div className="slider-image1">
              <img src="images/slider/Home/10-min.jpg" alt="" srcset="" />
              </div>
 
-             <div className="slider-image">
+             <div className="slider-image1">
              <img src="images/slider/Home/11-min.jpg" alt="" srcset="" />
              </div>
 
-             <div className="slider-image">
+             <div className="slider-image1">
              <img src="images/slider/Home/12-min.jpg" alt="" srcset="" />
              </div>
 
-             <div className="slider-image">
+             <div className="slider-image1">
              <img src="images/slider/Home/13-min.jpg" alt="" srcset="" />
              </div>
 
@@ -89,7 +89,7 @@ const Carousel = () => {
        
                <Slider  {...settings}>
 
-               <div className="slider-image">
+               <div className="slider-image1">
                <img src="images/slider/commercial/1-min.jpg" alt="" srcset="" />
              </div>
            
@@ -104,7 +104,7 @@ const Carousel = () => {
         
               <Slider  {...settings}>
 
-              <div className="slider-image">
+              <div className="slider-image1">
               <img src="images/slider/private/1-min.jpg" alt="" srcset="" />
             </div>
           
@@ -118,7 +118,7 @@ const Carousel = () => {
        
              <Slider  {...settings}>
 
-             <div className="slider-image">
+             <div className="slider-image1">
              <img src="images/slider/motor_servicing/1-min.jpg" alt="" srcset="" />
            </div>
          
@@ -133,7 +133,7 @@ const Carousel = () => {
        
              <Slider  {...settings}>
 
-             <div className="slider-image">
+             <div className="slider-image1">
              <img src="images/slider/garage_equipment/1-min.jpg" alt="" srcset="" />
            </div>
          
@@ -147,7 +147,7 @@ const Carousel = () => {
        
              <Slider  {...settings}>
 
-             <div className="slider-image">
+             <div className="slider-image1">
              <img src="images/slider/spare_parts/1-min.jpg" alt="" srcset="" />
            </div>
          
@@ -160,7 +160,7 @@ const Carousel = () => {
        
              <Slider  {...settings}>
 
-             <div className="slider-image">
+             <div className="slider-image1">
              <img src="images/slider/electric_motorcycle/1-min.jpg" alt="" srcset="" />
            </div>
          
@@ -175,7 +175,7 @@ const Carousel = () => {
       
             <Slider  {...settings}>
 
-            <div className="slider-image">
+            <div className="slider-image1">
             <img src="images/slider/forlift/1-min.jpg" alt="" srcset="" />
           </div>
         
@@ -189,7 +189,7 @@ const Carousel = () => {
 
            <Slider  {...settings}>
 
-           <div className="slider-image">
+           <div className="slider-image1">
               <img src="images/slider/construction_machinery/1-min.jpg" alt="" srcset="" />
           </div>
          </Slider>
@@ -200,7 +200,7 @@ const Carousel = () => {
 
           <Slider  {...settings}>
 
-          <div className="slider-image">
+          <div className="slider-image1">
              <img src="images/slider/special_vehicles/1-min.jpg" alt="" srcset="" />
           </div>
         </Slider>
@@ -211,7 +211,7 @@ const Carousel = () => {
  
            <Slider  {...settings}>
  
-           <div className="slider-image">
+           <div className="slider-image1">
               <img src="images/slider/Light_Duty_Truck/1-min.jpg" alt="" srcset="" />
            </div>
          </Slider>
@@ -222,7 +222,7 @@ const Carousel = () => {
 
           <Slider  {...settings}>
 
-          <div className="slider-image">
+          <div className="slider-image1">
              <img src="images/slider/Heavy_Duty_Truck/1-min.jpg" alt="" srcset="" />
           </div>
         </Slider>
@@ -234,7 +234,7 @@ const Carousel = () => {
 
           <Slider  {...settings}>
 
-          <div className="slider-image">
+          <div className="slider-image1">
              <img src="images/slider/Dump_Truck/1-min.jpg" alt="" srcset="" />
           </div>
          </Slider>
@@ -246,7 +246,7 @@ const Carousel = () => {
 
              <Slider  {...settings}>
 
-             <div className="slider-image">
+             <div className="slider-image1">
                 <img src="images/slider/Prime_Mover/1-min.jpg" alt="" srcset="" />
              </div>
             </Slider>
@@ -258,7 +258,7 @@ currentURLSplit[currentURLSplit.length - 1] == "rmc_sidebar"?
 
  <Slider  {...settings}>
 
- <div className="slider-image">
+ <div className="slider-image1">
     <img src="images/slider/RMC/1-min.jpg" alt="" srcset="" />
  </div>
 </Slider>
@@ -270,7 +270,7 @@ currentURLSplit[currentURLSplit.length - 1] == "concrete_sidebar"?
 
  <Slider  {...settings}>
 
- <div className="slider-image">
+ <div className="slider-image1">
     <img src="images/slider/concrete/1-min.jpg" alt="" srcset="" />
  </div>
 </Slider>
@@ -281,7 +281,7 @@ currentURLSplit[currentURLSplit.length - 1] == "battery_sidebar" || currentURLSp
 
  <Slider  {...settings}>
 
- <div className="slider-image">
+ <div className="slider-image1">
     <img src="images/slider/Akij_CNG/1-min.jpg" alt="" srcset="" />
  </div>
 </Slider>

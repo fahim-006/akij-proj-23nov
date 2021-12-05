@@ -9,7 +9,7 @@ const NewRelease = () => {
                     <NewReleaseWriting/>
                 </div>
                 <div className="col-lg-6 col-md-12 col-sm-12" style={{alignItems: "center", marginTop: "5%"}}>
-                    <img src={image} alt="newRelease Image"/>
+                    <img src={image} alt="newRelease Image" className="newReleaseImg"/>
             </div>
             </div>
         </div>
