@@ -31,7 +31,7 @@ code {
 
 .navLi a {
   display: block;
-  font-size: 16px;
+  font-size: 12px;
   font-family: 'Poppins Medium','arial';
   font-weight: bold;
   color: #FF0003;
@@ -194,14 +194,17 @@ code {
 
 .item1{
   color: #ffffff;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.item1-category{
+  color: #ffffff;
   font-size: 14px;
   margin-right: 150px;
-  margin-left: 20px;
   cursor: pointer;
 }
 
 @media screen and (max-width: 800px) {
-
   .item1{
     color: #ffffff;
     font-size: 12px;
@@ -1466,5 +1469,9 @@ code {
 .akij_new_car_headline{
   width: auto;
   margin-left: 0px;
+}
+
+.item1-category{
+  display: none;
 }
 }

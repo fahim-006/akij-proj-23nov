@@ -7,7 +7,7 @@ import './Carousel.css';
 
 const Carousel = () => {
     let settings = {
-        dots: false,
+        dots: true,
         infinite: true,
         speed: 1500,
         slidesToShow: 1,

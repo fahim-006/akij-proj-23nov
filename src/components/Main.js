@@ -4,6 +4,7 @@ import DealerPage from './Dealer';
 import CategoryClick from './categoryClick';
 import MiniTruck from './Sidebar/subCategoryDetails/components/Link1/mini_truck_1000kg_diesel';
 import Home from './home/Home'
+import Duronto from './Sidebar/subCategoryDetails/components/Link3/Duronto';
 import Druti from './Sidebar/subCategoryDetails/components/Link2/Druti';
 import PonkhirajPlus from './Sidebar/subCategoryDetails/components/Link4/PonkhirajPlus.js';
 import BijoyderTon from './Sidebar/subCategoryDetails/components/Link5/BijoyderTon';
@@ -47,7 +48,7 @@ const Main = () => {
             <Route path= "/navbarclick" component={CategoryClick}/>
             <Route path= "/PONKHIRAJ_1000KG_DIESEL" component={MiniTruck}/>
             <Route path= "/druti_1000_kg_petrol" component={Druti}/>    
-            <Route path= "/duronto_1000_kg" component={Druti}/>  
+            <Route path= "/duronto_1000_kg" component={Duronto}/>  
             <Route path= "/PONKHIRAJ_PLUS_TON_DIESEL" component={PonkhirajPlus}/>
             <Route path= "/bijoyderton" component={BijoyderTon}/>
             <Route path= "/bijoytinton" component={BijoyTinTon}/>

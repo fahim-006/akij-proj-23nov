@@ -29,8 +29,10 @@ const Navigation = ({onToggle}) => {
                               strokeWidth="48"
                               d="M88 152h336M88 256h336M88 360h336"
                         ></path>
-                        </svg> CATEGORIES      
+                        </svg>       
+                    
                         </div>
+                        <div className="item1-category" onClick={onToggle}>CATEGORIES</div>
                               <Link to="/commercial_vehicles" style={{textDecoration: "none"}}><div className="Navitem">COMMERCIAL VEHICLE</div></Link>
                               <Link to="/private_vehicles" style={{textDecoration: "none"}}> <div className="Navitem">PRIVATE VEHICLE</div></Link>
                               <Link to="/motor_servicing" style={{textDecoration: "none"}}> <div className="Navitem">MOTOR SERVICING</div></Link>
