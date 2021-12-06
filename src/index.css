@@ -311,6 +311,7 @@ code {
   font-weight: bold;
   font-size: 40px;
   font-family: Poppins, Arial, Helvetica, sans-serif;
+  margin-top: 50px;
 }
 
 @media screen and (max-width: 800px) {
@@ -1203,7 +1204,8 @@ code {
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-gap: 15px;
-  height: 172px;
+  height: 372px;
+  margin-bottom: 50px;
   background-color: #ffffff;
   padding: 10px;
   overflow: scroll;
@@ -1333,27 +1335,6 @@ code {
 
 }
 
-
-@media screen and (max-width: 800px) {
-  .grid-new-release {
-    display: grid;
-    width: 100%;
-    grid-template-columns: auto;
-    grid-gap: 20px;
-    align-items:flex-start;
-    margin-bottom: 20px;
-  }
-
-  .newRelease{
-    margin-top: 100px;
-    margin-left: 0px;
-}
-
-.newReleaseImg{
-  width: 85%;
-}
-  
-}
 /*Grid container new release end*/
 
 
@@ -1443,3 +1424,47 @@ code {
   width: 166px;
 }
 /* rofrofBTN*/
+
+@media screen and (max-width: 800px) {
+  .grid-new-release {
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto;
+    grid-gap: 20px;
+    align-items:flex-start;
+    margin-bottom: 20px;
+  }
+
+  .newRelease{
+    margin-top: 100px;
+    margin-left: 0px;
+}
+
+.newReleaseImg{
+  width: 85%;
+}
+
+.Commercial_Vehicles_bijoy{
+  width: 85%;
+}
+.content_ambulance_performance{
+  width: auto;
+}
+
+.content_ambulance_performance_head{
+  width: auto;
+}
+.image_greatest_pleasure{
+  width: 85%;
+}
+
+.akij_new_car_paragraph{
+  width: auto;
+  margin-left: 0px;
+}
+
+.akij_new_car_headline{
+  width: auto;
+  margin-left: 0px;
+}
+}

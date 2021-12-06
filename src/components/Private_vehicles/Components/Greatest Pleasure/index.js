@@ -9,7 +9,7 @@ const Greatest_Pleasure = () => {
                     <Writing/>
                 </div>
                 <div className="col-lg-6 col-md-12 col-sm-12" style={{alignItems: "center", marginTop: "5%"}}>
-                    <img src={image} alt="newRelease Image" style={{marginTop: "100px"}}/>
+                    <img src={image} alt="newRelease Image" style={{marginTop: "100px"}} className="image_greatest_pleasure"/>
             </div>
             </div>
         </div>

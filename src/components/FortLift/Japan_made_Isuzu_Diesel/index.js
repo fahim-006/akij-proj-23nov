@@ -5,7 +5,7 @@ const Japan_made_Isuzu_Diesel = () => {
         <div className="container-fluid">
             <div className="row">
                 <div className="col-lg-6 col-sm-12 col-md-12">
-                        <img style={{marginTop: "150px"}} src={image} alt="newRelease Image"/>
+                        <img style={{marginTop: "150px"}} src={image} alt="newRelease Image" className="newReleaseImg"/>
                 </div>
 
                 <div className="col-lg-6 col-sm-12 col-md-12" style={{textAlign: "center", marginTop: "100px"}}>

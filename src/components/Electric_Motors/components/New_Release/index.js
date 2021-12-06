@@ -27,7 +27,7 @@ const New_Release_Electric_motor = () => {
             </div>
             <div className="col-md-6">
               <div className="new__release__img">
-                <img src={nr} alt="" />
+                <img src={nr} alt="" className="newReleaseImg"/>
               </div>
             </div>
           </div>

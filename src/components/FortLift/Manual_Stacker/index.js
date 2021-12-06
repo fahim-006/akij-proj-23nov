@@ -7,7 +7,7 @@ const Manual_Stacker = () => {
             <div className="row">
             <div className="col-lg-6 col-sm-12 col-md-12" style={{textAlign: "center", marginTop: "100px"}}>
                 <p className="aboutusHeading1">Stacker 1.5 Ton (Manual)</p>
-                <ul style={{listStyleType: "none"}}>
+                <ul style={{listStyleType: "none", marginTop: "150px"}}>
                     <li>Model: WRSD1500</li>
 
                     <li>Capacity (kg): 1500</li>
@@ -19,7 +19,7 @@ const Manual_Stacker = () => {
                 </ul>
                 </div>
                 <div className="col-lg-6 col-sm-12 col-md-12">
-                        <img style={{marginTop: "150px"}} src={image} alt="newRelease Image"/>
+                        <img style={{marginTop: "150px"}} src={image} alt="newRelease Image" className="newReleaseImg"/>
                 </div>
 
              

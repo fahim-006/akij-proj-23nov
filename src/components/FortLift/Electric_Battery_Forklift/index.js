@@ -6,12 +6,12 @@ const Electric_Battery_Forklift = () => {
         <div className="container-fluid">
             <div className="row">
                 <div className="col-lg-6 col-sm-12 col-md-12">
-                        <img style={{marginTop: "150px"}} src={image} alt="newRelease Image"/>
+                        <img style={{marginTop: "150px"}} src={image} alt="newRelease Image" className="newReleaseImg"/>
                 </div>
 
-                <div className="col-lg-6 col-sm-12 col-md-12" style={{textAlign: "center", marginTop: "100px"}}>
+                <div className="col-lg-6 col-sm-12 col-md-12" style={{textAlign: "center", marginTop: "50px"}}>
                 <p className="aboutusHeading1">Electric/Battery Forklift(2.0 ~ 2.5 Ton)</p>
-                <ul style={{listStyleType: "none"}}>
+                <ul style={{listStyleType: "none", marginTop:"150px"}}>
                     <li>Model: LG20B</li>
                     <li>Power Type: Electric(AC)</li>
                     <li>Load Center Distance (mm): 500</li>

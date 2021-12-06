@@ -145,7 +145,7 @@ const Benefits = () => {
             <button className="h-btn">Shop Now</button>
           </div>
           <div className="h-img">
-            <img src={haritage} alt="" />
+            <img src={haritage} alt="" className="haritage-container-image"/>
           </div>
         </div>
         <div className="jacket d-flex">
@@ -155,7 +155,7 @@ const Benefits = () => {
             <button className="h-btn">Shop Now</button>
           </div>
           <div className="h-img">
-            <img src={jacket} alt="" />
+            <img src={jacket} alt="" className="haritage-container-image"/>
           </div>
         </div>
       </div>

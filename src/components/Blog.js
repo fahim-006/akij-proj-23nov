@@ -43,33 +43,7 @@ const Blog = () => {
                             <p>AKIJ Motors, one of the biggest automobile companies in Bangladesh. It has been working since 2016 with trust & reputation. Akij Motors</p>
                         </div>            
                     </div>
-                    <div className="card col-12 col-md-6 col-lg-4 mb-4">
-                        <div className="img-container">
-                            <img className="card-img-top" src="images/card4.png" alt="" srcset="" />
-                        </div>
-                        <div className="card-info card-body">
-                            <h3 className="my-3">Latest News</h3>
-                            <p>AKIJ Motors, one of the biggest automobile companies in Bangladesh. It has been working since 2016 with trust & reputation. Akij Motors</p>
-                        </div>            
-                    </div>
-                    <div className="card col-12 col-md-6 col-lg-4 mb-4">
-                        <div className="img-container">
-                            <img className="card-img-top" src="images/card5.png" alt="" srcset="" />
-                        </div>
-                        <div className="card-info card-body">
-                            <h3 className="my-3">Latest News</h3>
-                            <p>AKIJ Motors, one of the biggest automobile companies in Bangladesh. It has been working since 2016 with trust & reputation. Akij Motors</p>
-                        </div>            
-                    </div>
-                    <div className="card col-12 col-md-6 col-lg-4 mb-4">
-                        <div className="img-container">
-                            <img className="card-img-top img-fluid" src="images/card6.png" alt="" srcset="" />
-                        </div>
-                        <div className="card-info card-body">
-                            <h3 className="my-3">Latest News</h3>
-                            <p>AKIJ Motors, one of the biggest automobile companies in Bangladesh. It has been working since 2016 with trust & reputation. Akij Motors</p>
-                        </div>            
-                    </div>
+                 
                 </div>
             </div>
 

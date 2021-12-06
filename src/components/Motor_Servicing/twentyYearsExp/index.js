@@ -11,7 +11,7 @@ const TwentyYearsExp = () =>{
                     <p>We love to fix cars and <br/> we are committed ti the job with<br/> excellent result.</p>
                 </div>
                 <div className="col-lg-6 col-md-12 col-sm-12" style={{alignItems: "center", marginTop: "5%"}}>
-                    <img style={{marginTop: "150px"}} src={image} alt="newRelease Image"/>
+                    <img style={{marginTop: "150px"}} src={image} alt="newRelease Image" className="newReleaseImg"/>
             </div>
             </div>
         </div>

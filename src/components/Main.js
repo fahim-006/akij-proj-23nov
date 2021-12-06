@@ -1,5 +1,6 @@
 import { Switch, Route, Redirect} from 'react-router-dom'
 import About from './about/About';
+import DealerPage from './Dealer';
 import CategoryClick from './categoryClick';
 import MiniTruck from './Sidebar/subCategoryDetails/components/Link1/mini_truck_1000kg_diesel';
 import Home from './home/Home'
@@ -42,6 +43,7 @@ const Main = () => {
         <Switch>
             <Route path = "/" exact component={Home} />
             <Route path = "/aboutus" exact component={About} />
+            <Route path = "/dealers" exact component={DealerPage} />
             <Route path= "/navbarclick" component={CategoryClick}/>
             <Route path= "/PONKHIRAJ_1000KG_DIESEL" component={MiniTruck}/>
             <Route path= "/druti_1000_kg_petrol" component={Druti}/>    
