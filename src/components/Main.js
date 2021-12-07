@@ -8,7 +8,6 @@ import Duronto from './Sidebar/subCategoryDetails/components/Link3/Duronto';
 import Druti from './Sidebar/subCategoryDetails/components/Link2/Druti';
 import PonkhirajPlus from './Sidebar/subCategoryDetails/components/Link4/PonkhirajPlus.js';
 import BijoyderTon from './Sidebar/subCategoryDetails/components/Link5/BijoyderTon';
-import BijoyTinTon from './Sidebar/subCategoryDetails/components/Link6/BijoyTinTon';
 import PrivateVehicles from './Private_vehicles';
 import CommercialVehicles from './Commercial_Vehicles';
 import ContactwithUs from './pages/Contact';
@@ -36,7 +35,20 @@ import Motor_Servicing_sidebar from './Sidebar/Motor_Servicing';
 import SpareParts_sidebar from './Spare_Parts';
 import Battery_Sidebar from './Sidebar/Battery';
 import Akij_CNG_Sidebar from './Sidebar/Akij_CNG';
-
+import BorakTinTon from './Sidebar/subCategoryDetails/components/Link6/BorakTinTon';
+import Rajdut_4ton from './Sidebar/subCategoryDetails/components/Rajdut_4.0_Ton_Diesel';
+import RofRof_17_Feet from './Sidebar/subCategoryDetails/components/RofRof_(4x2)_17_Feet';
+import RofRof_7_Ton from './Sidebar/subCategoryDetails/components/RofRof_7ton';
+import Rustom_20_Feet from './Sidebar/subCategoryDetails/components/Rustom (4x2) 20 Feet';
+import Rustom_24_Feet from './Sidebar/subCategoryDetails/components/Rustom (4x2) 24 Feet';
+import Saktiman_24_Feet from './Sidebar/subCategoryDetails/components/Shaktiman (4x2) 24 Feet';
+import Tufan_20_Feet from './Sidebar/subCategoryDetails/components/Tufan 20 Feet';
+import Tufan_24_Feet from './Sidebar/subCategoryDetails/components/Tufan 24 Feet';
+import Shaktiman_Plus_24_Feet from './Sidebar/subCategoryDetails/components/Shaktiman Plus 24 Feet';
+import Heavy_Duty_Cargo_Truck from './Sidebar/subCategoryDetails/components/Bahadur Truck (6x4) 45 Ton';
+import Heavy_Duty_Cargo_Truck_23 from './Sidebar/subCategoryDetails/components/Bahadur Truck (6x4) 23 Ton';
+import Kamla_3Point5_CMB from './Sidebar/subCategoryDetails/components/Kamla 3.5 CBM';
+import Kamla_Plus_Tipper from './Sidebar/subCategoryDetails/components/Kamla Plus_Tipper';
 
 const Main = () => {
     return (
@@ -51,7 +63,20 @@ const Main = () => {
             <Route path= "/duronto_1000_kg" component={Duronto}/>  
             <Route path= "/PONKHIRAJ_PLUS_TON_DIESEL" component={PonkhirajPlus}/>
             <Route path= "/bijoyderton" component={BijoyderTon}/>
-            <Route path= "/bijoytinton" component={BijoyTinTon}/>
+            <Route path= "/borakTinTon" component={BorakTinTon}/>
+            <Route path= "/rajdut_4_ton" component={Rajdut_4ton}/>
+            <Route path= "/rofrof17feet" component={RofRof_17_Feet}/>
+            <Route path= "/rofrof_7_ton" component={RofRof_7_Ton}/>
+            <Route path= "/rustom_20_feet" component={Rustom_20_Feet}/>
+            <Route path= "/rustom_24_feet" component={Rustom_24_Feet}/>
+            <Route path= "/saktiman_24_Feet" component={Saktiman_24_Feet}/>
+            <Route path= "/tufan_20_feet" component={Tufan_20_Feet}/>
+            <Route path= "/tufan_24_feet" component={Tufan_24_Feet}/>
+            <Route path= "/shaktiman_plus_24_feet" component={Shaktiman_Plus_24_Feet}/>
+            <Route path= "/heavy_duty_cargo_truck" component={Heavy_Duty_Cargo_Truck}/>
+            <Route path= "/heavy_duty_cargo_truck_23Ton" component={Heavy_Duty_Cargo_Truck_23}/>
+            <Route path= "/kamla_3.5_cmb" component={Kamla_3Point5_CMB}/>
+            <Route path= "/kamla_plus_tipper" component={Kamla_Plus_Tipper}/>
             <Route path= "/private_vehicles" component={PrivateVehicles}/>
 
             <Route path= "/commercial_vehicles" component={CommercialVehicles}/>

@@ -5,7 +5,9 @@ const Best_services = () => {
         <div className="container-fluid">
             <div className="row">
                 <div className="col-lg-6 col-md-12 col-sm-12">
-                    <p className="aboutusHeading1">Get the best services with us</p>
+                    <p className="aboutusHeading1" style={{marginTop:"100px"}}>Get the best services with us</p>
+
+                    {/* 
                     <table class="table table-striped table">
  
                         <tbody>
@@ -98,6 +100,8 @@ const Best_services = () => {
                                 </tr>
                         </tbody>
                     </table>
+                    */}
+                    <p style={{marginTop: "100px"}}>Cycling requires no gasoline and, therefore, no harmful vehicle emissions or smog are released into the air when a person is riding his or her bicycle is called eco-friendly bike. We can see this bike doesn't release any significant sound and harmful gas to pollute our society. It also can ride smoothly on jolty roads.</p>
                 </div>
                 <div className="col-lg-6 col-md-12 col-sm-12">
                     <img style={{marginTop: "97px"}} src={img1} width="100%"/>

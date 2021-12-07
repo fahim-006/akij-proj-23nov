@@ -7,7 +7,7 @@ import Footer from '../../../../Footer/Footer';
 import Link6 from './Link6';
 
  
-const BijoyTinTon = () => {
+const BorakTinTon = () => {
     const [show, setShow] = useState(true)
     const handleToggle = useCallback(()=> setShow(prevShow => !prevShow), []);
 
@@ -29,4 +29,4 @@ const BijoyTinTon = () => {
     );
 }
 
-export default BijoyTinTon;
+export default BorakTinTon;

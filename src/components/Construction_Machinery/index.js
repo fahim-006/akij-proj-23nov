@@ -6,6 +6,7 @@ import Footer from "../Footer/Footer";
 import CategoryClick from "../categoryClick";
 import Carousel from '../home/Carousel'
 import Find_Best_Vehicles_Construction_Machinery from './Find_Best_Vehicles';
+import ConcreteMachinery from './pages/ConcreteMachinery/ConcreteMachinery';
 
 
 const ConstructionMachinery = () => {
@@ -19,6 +20,7 @@ const ConstructionMachinery = () => {
                 <Navigation onToggle = {handleToggle}/>
                 <Carousel/>
                 <Find_Best_Vehicles_Construction_Machinery/>
+                <ConcreteMachinery/>
                 <Footer/>
                 </div>
                 }

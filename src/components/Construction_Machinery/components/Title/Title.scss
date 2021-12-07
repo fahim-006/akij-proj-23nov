@@ -1,0 +1,23 @@
+.title {
+  .title__underline {
+    h1 {
+      font-weight: 600;
+      color: #14478d;
+      text-align: left;
+      opacity: 0.9;
+    }
+    .underline__one {
+      width: 125px;
+      height: 6px;
+      background-color: #c50000;
+      opacity: 0.9;
+    }
+    .underline__two {
+      margin-top: 7px;
+      width: 71px;
+      height: 6px;
+      background-color: #c50000;
+      opacity: 0.9;
+    }
+  }
+}
