@@ -1475,3 +1475,8 @@ code {
   display: none;
 }
 }
+
+.react-multi-carousel-list{
+  margin-left: 100px;
+  margin-right: 100px;
+}

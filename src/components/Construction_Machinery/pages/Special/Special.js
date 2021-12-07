@@ -4,7 +4,7 @@ import slide1 from "../../images/slide1.jpg";
 import slide2 from "../../images/slide2.jpg";
 import slide3 from "../../images/slide3.jpg";
 import backhoe from "../../images/backhoe-loader.jpg";
-import garbage from "../../images/garbage-truck.jpg";
+
 import Title from "../../components/Title/Title";
 import TruckSlider from "../../components/TruckSlider/TruckSlider";
 import CDM514B from "../../images/CDM514B.jpg";
@@ -69,51 +69,14 @@ function Special_Cars() {
           />
         </div>
       </div>
-      <div className="gurbage">
-        <div className="container">
-          <div className="row d-flex align-items-center">
-            <div className="col-md-6">
-              <div className="gurbage__img">
-                <img src={garbage} alt="" />
-              </div>
-            </div>
-            <div className="col-md-6">
-              <div className="features">
-                <div className="rooler__title">
-                  <Title title="Garbage Truck (4x2)" />
-                </div>
-                <div className="feature pt-4">
-                  <p>Wheel base (mm)</p>
-                  <p>4500</p>
-                </div>
-                <div className="feature">
-                  <p>Dimensions (mm)</p>
-                  <p>8620X2500X3260</p>
-                </div>
-                <div className="feature">
-                  <p>Curb weight （kg</p>
-                  <p>7950</p>
-                </div>
-                <div className="feature">
-                  <p>Front overhang/rear overhang (mm)</p>
-                  <p>1410/2216</p>
-                </div>
-                <div className="feature">
-                  <p>Approach angle/Departure angle</p>
-                  <p>26/25</p>
-                </div>
-                <div className="feature">
-                  <p>Min. Ground clearance (mm)</p>
-                  <p>500</p>
-                </div>
-                <div className="text-center">
-                  <Btn />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+
+
+
+
+
+
+
+
       <div className="backhoe">
         <div className="container">
           <div className="row">

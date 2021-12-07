@@ -8,6 +8,7 @@ import fire from "../../images/fire-fighting.jpg";
 import refrigerator from "../../images/refrigerator-van.jpg";
 import mounted from "../../images/tuck-mounted-crane.jpg";
 import wrecker from "../../images/wrecker-forland.jpg";
+import garbage from "../../images/garbage-truck.jpg";
 
 import "./ConcreteMachinery.scss";
 import TruckSlider from "../../components/TruckSlider/TruckSlider";
@@ -59,6 +60,53 @@ function ConcreteMachinery() {
                 <img src={Capture2} alt="" />
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="gurbage">
+        <div className="container">
+          <div className="row d-flex align-items-center">
+            <div className="col-md-6">
+              <div className="gurbage__img">
+                <img src={garbage} alt="" />
+              </div>
+            </div>
+
+            <div className="col-md-6">
+              <div className="features">
+                <div className="rooler__title">
+                  <Title title="Garbage Truck (4x2)" />
+                </div>
+                <div className="feature pt-4">
+                  <p>Wheel base (mm)</p>
+                  <p>4500</p>
+                </div>
+                <div className="feature">
+                  <p>Dimensions (mm)</p>
+                  <p>8620X2500X3260</p>
+                </div>
+                <div className="feature">
+                  <p>Curb weight （kg</p>
+                  <p>7950</p>
+                </div>
+                <div className="feature">
+                  <p>Front overhang/rear overhang (mm)</p>
+                  <p>1410/2216</p>
+                </div>
+                <div className="feature">
+                  <p>Approach angle/Departure angle</p>
+                  <p>26/25</p>
+                </div>
+                <div className="feature">
+                  <p>Min. Ground clearance (mm)</p>
+                  <p>500</p>
+                </div>
+                <div className="text-center">
+                  <Btn />
+                </div>
+              </div>
+            </div>
+            
           </div>
         </div>
       </div>

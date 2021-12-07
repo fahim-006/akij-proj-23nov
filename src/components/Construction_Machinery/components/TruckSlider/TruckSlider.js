@@ -5,7 +5,7 @@ import Slider from "react-slick";
 import "./TruckSlider.scss";
 function TruckSlider({ image1, image2, image3, title1, title2, title3 }) {
   let settings = {
-    dots: false,
+    dots: true,
     infinite: true,
     speed: 1500,
     slidesToShow: 3,
