@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const SubSide12 = () => {
     return(
    
@@ -14,10 +16,10 @@ const SubSide12 = () => {
             <div class="flex-item-main-subsidebar" style={{fontWeight: "bold"}}>
                     JAPAN MADE NISSAN PETROL
 			</div>
-
-			<div class="flex-item-main-subsidebar" style={{marginLeft: "0px"}}>
-                    2.0 ~ 3.5 TON
-			</div>
+                        
+	        <Link to="/forklift_mojdur" style={{color: "#000000"}}><div class="flex-item-main-subsidebar" style={{marginLeft: "0px"}}>
+                        2.0 ~ 3.5 TON
+	        </div></Link>
 
             <div class="flex-item-main-subsidebar" style={{fontWeight: "bold"}}>
                     ELECTRIC/BATTERY FORKLIFT

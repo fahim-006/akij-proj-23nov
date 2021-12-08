@@ -49,6 +49,12 @@ import Heavy_Duty_Cargo_Truck from './Sidebar/subCategoryDetails/components/Baha
 import Heavy_Duty_Cargo_Truck_23 from './Sidebar/subCategoryDetails/components/Bahadur Truck (6x4) 23 Ton';
 import Kamla_3Point5_CMB from './Sidebar/subCategoryDetails/components/Kamla 3.5 CBM';
 import Kamla_Plus_Tipper from './Sidebar/subCategoryDetails/components/Kamla Plus_Tipper';
+import VIP_Microbus from './Sidebar/subCategoryDetails/components/VIP Microbus';
+import Golf from './Sidebar/subCategoryDetails/components/Golf';
+import Forklift_Mojdur from './Sidebar/subCategoryDetails/components/Forklift_Mojdur';
+import Duronto_V6 from './Sidebar/subCategoryDetails/components/Duronto_v6';
+import Scanner_Universal from './Sidebar/subCategoryDetails/components/Scanner Universal';
+import Samrat from './Sidebar/subCategoryDetails/components/Samrat';
 
 const Main = () => {
     return (
@@ -77,6 +83,9 @@ const Main = () => {
             <Route path= "/heavy_duty_cargo_truck_23Ton" component={Heavy_Duty_Cargo_Truck_23}/>
             <Route path= "/kamla_3.5_cmb" component={Kamla_3Point5_CMB}/>
             <Route path= "/kamla_plus_tipper" component={Kamla_Plus_Tipper}/>
+            <Route path= "/vip_microbus" component={VIP_Microbus}/>
+            <Route path= "/golf" component={Golf}/>
+            <Route path= "/forklift_mojdur" component={Forklift_Mojdur}/>
             <Route path= "/private_vehicles" component={PrivateVehicles}/>
 
             <Route path= "/commercial_vehicles" component={CommercialVehicles}/>
@@ -87,6 +96,10 @@ const Main = () => {
             <Route path= "/construction_machinery" component={ConstructionMachinery}/>
             <Route path= "/forlift" component={Forlift}/>
             <Route path= "/special_vehicles" component={SpecialVehicles}/>
+            <Route path= "/dutonto_v6" component={Duronto_V6}/>
+            <Route path= "/scanner_universal" component={Scanner_Universal}/>
+            <Route path= "/samrat" component={Samrat}/>
+
 
             <Route path= "/commercial_vehicles_sidebar_mini_truck" component={CommercialVehicles}/>
             <Route path= "/light_duty_sidebar" component={Light_Duty_Truck}/>

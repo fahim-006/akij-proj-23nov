@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const SubSide7 = () => {
     return(
    
@@ -15,7 +17,7 @@ const SubSide7 = () => {
 			</div>
 
             <div class="flex-item-main-subsidebar">
-                VIP Microbus      
+                <Link to="/vip_microbus" style={{color: "#000000"}}>VIP Microbus</Link>
 			</div>
 
             <div class="flex-item-main-subsidebar">

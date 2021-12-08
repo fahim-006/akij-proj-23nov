@@ -12,6 +12,15 @@ code {
     monospace;
 }
 
+.anchorTag{
+  text-decoration: none;
+  color: #000;
+}
+.anchorTag:hover{
+  text-decoration: none;
+  color: #000;
+}
+
 /* Navigation*/
 .logoImage{
   width: 277px;

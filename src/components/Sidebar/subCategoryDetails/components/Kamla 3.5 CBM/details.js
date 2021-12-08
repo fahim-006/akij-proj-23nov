@@ -52,7 +52,7 @@ const Details_Kamla_3Point5_CMB = () => {
                   <ol>
                     <li>Delivery on both cash and hire purchase.</li>
                     <li>For hire purchase, minimum down payment is 30%..</li>
-                    <li>Registration & Insurance are free of charge.</li>
+                    <li>Registration &amp; Insurance are free of charge.</li>
                    
                     <li>Installment period maximum upto 36 months.</li>
                     <li>6 times free services</li>
@@ -69,6 +69,9 @@ const Details_Kamla_3Point5_CMB = () => {
           </div>
         </div>
       </div>
+
+
+      
       <div className="spcification">
         <div className="container">
           <div className="title__spc">

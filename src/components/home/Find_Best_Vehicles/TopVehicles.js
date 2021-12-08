@@ -1,18 +1,21 @@
 const data = [
     {
         name: "KAMLA",
-        img:  './findTopImages/Kamla.png'
+        img:  './findTopImages/Kamla.png',
+        url: '/kamla_3.5_cmb'
     },
 
     {
         name: "VIP MICROBUS",
-        img: './findTopImages/vipMicrobus.png'
+        img: './findTopImages/vipMicrobus.png',
+        url: '/vip_microbus'
     },
 
     
     {
         name: "GOLF CART",
-        img: './findTopImages/golf.png'
+        img: './findTopImages/golf.png',
+        url: "/golf"
     },
 
     
@@ -24,25 +27,29 @@ const data = [
     
     {
         name: "FORKLIFT (MOZDUR) GASOLINE/CNG",
-        img: './findTopImages/forklift.png'
+        img: './findTopImages/forklift.png',
+        url: '/forklift_mojdur'
     },
 
     
     {
         name: "DURONTO V6",
-        img: './findTopImages/duronto.png'
+        img: './findTopImages/duronto.png',
+        url: '/dutonto_v6'
     },
 
     
     {
         name: "EXCAVATOR",
-        img: './findTopImages/excavetor.PNG'
+        img: './findTopImages/excavetor.PNG',
+        url: '/forklift_mojdur'
     },
 
     
     {
         name: "WRECKER",
-        img: './findTopImages/wrecker.png'
+        img: './findTopImages/wrecker.png',
+        url: "/golf"
     },
 ]
 
@@ -54,9 +61,11 @@ const TopVehicles = () => {
          
                 {data.map((item)=>(
                        <div> 
-                        <img src ={item.img} style={{width: "284px"}}/>
-                        <p style={{textAlign: "center"}}>{item.name}</p>
-                    </div>
+                           <a href={item.url} className="anchorTag"> 
+                                <img src ={item.img} style={{width: "284px"}}/>
+                                <p style={{textAlign: "center"}}>{item.name}</p>
+                            </a>
+                        </div>
                 ))}
     
          </div>

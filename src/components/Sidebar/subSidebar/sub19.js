@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const SubSide19 = () => {
     return(
         <div class="flex-container-main-subsidebar">
@@ -9,7 +11,7 @@ const SubSide19 = () => {
 			</div>
 
             <div class="flex-item-main-subsidebar">
-                Golf Cart       
+                <Link to="/golf" style={{color: "#000000"}}>Golf Cart</Link>       
 			</div>
 
             <div class="flex-item-main-subsidebar">
