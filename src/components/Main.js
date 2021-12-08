@@ -55,6 +55,8 @@ import Forklift_Mojdur from './Sidebar/subCategoryDetails/components/Forklift_Mo
 import Duronto_V6 from './Sidebar/subCategoryDetails/components/Duronto_v6';
 import Scanner_Universal from './Sidebar/subCategoryDetails/components/Scanner Universal';
 import Samrat from './Sidebar/subCategoryDetails/components/Samrat';
+import Wheel_Loader from './Sidebar/subCategoryDetails/components/Wheel_Loader';
+import Wracker from './Sidebar/subCategoryDetails/components/Wracket';
 
 const Main = () => {
     return (
@@ -97,6 +99,8 @@ const Main = () => {
             <Route path= "/forlift" component={Forlift}/>
             <Route path= "/special_vehicles" component={SpecialVehicles}/>
             <Route path= "/dutonto_v6" component={Duronto_V6}/>
+            <Route path= "/wheel_loader" component={Wheel_Loader}/>
+            <Route path= "/wrecker" component={Wracker}/>
             <Route path= "/scanner_universal" component={Scanner_Universal}/>
             <Route path= "/samrat" component={Samrat}/>
 
