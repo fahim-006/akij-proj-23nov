@@ -4,7 +4,7 @@ const SubSide19 = () => {
     return(
         <div class="flex-container-main-subsidebar">
 			<div class="flex-item-main-subsidebar">
-                Electric Car     
+                <Link to="/dutonto_v6"> Electric Car</Link>
 			</div>
             <div class="flex-item-main-subsidebar">
                 Electric Car (3 Wheeler)   
@@ -15,11 +15,11 @@ const SubSide19 = () => {
 			</div>
 
             <div class="flex-item-main-subsidebar">
-                Classic/Antique Car        
+            <Link to="/golf"> Classic/Antique Car</Link>        
 			</div>
 
             <div class="flex-item-main-subsidebar">
-                Recreation/Sightseeing Car         
+            <Link to="/dutonto_v6"> Recreation/Sightseeing Car </Link>         
 			</div>
 		</div>
     )

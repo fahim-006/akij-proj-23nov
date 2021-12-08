@@ -1,63 +1,65 @@
+import { Link } from "react-router-dom";
+
 const SubSide11 = () => {
     return(
             <div class="flex-container-main-subsidebar">
 
             <div class="flex-item-main-subsidebar" style={{fontWeight: "bold"}}>
-                    Excavator
+            <Link to="/wheel_loader" style={{color: "#000000"}}> Excavator</Link>
 			</div>
 
 			<div class="flex-item-main-subsidebar" style={{marginLeft: "0px"}}>
-                Bucket Capacity 1.1CU.m 
+            <Link to="/wheel_loader" style={{color: "#000000"}}> Bucket Capacity 1.1CU.m</Link> 
 			</div>
 
 			<div class="flex-item-main-subsidebar" style={{marginLeft: "0px"}}>
-                Bucket Capacity 0.4CU.m   
+            <Link to="/wheel_loader" style={{color: "#000000"}}> Bucket Capacity 0.4CU.m </Link>  
 			</div>
 
             <div class="flex-item-main-subsidebar" style={{marginLeft: "0px"}}>
-                Bucket Capacity 0.36CU.m  
+            <Link to="/forklift_mojdur" style={{color: "#000000"}}>  Bucket Capacity 0.36CU.m  </Link>
 			</div>
 
             <div class="flex-item-main-subsidebar" style={{fontWeight: "bold"}}>
-                    WHEEL LOADER
+            <Link to="/wheel_loader" style={{color: "#000000"}}> WHEEL LOADER</Link>
 			</div>
 
             <div class="flex-item-main-subsidebar" style={{marginLeft: "0px"}}>
-                Bucket Capacity 3.0CU.m  
+            <Link to="/wheel_loader" style={{color: "#000000"}}> Bucket Capacity 3.0CU.m  </Link>
 			</div>
 
 			<div class="flex-item-main-subsidebar" style={{marginLeft: "0px"}}>
-                Bucket Capacity 1.8CU.m  
+            <Link to="/wheel_loader" style={{color: "#000000"}}>Bucket Capacity 1.8CU.m</Link>  
 			</div>
 
             <div class="flex-item-main-subsidebar" style={{marginLeft: "0px"}}>
-                Bucket Capacity 2.3CU.m   
+            <Link to="/wheel_loader" style={{color: "#000000"}}> Bucket Capacity 2.3CU.m</Link>   
 			</div> 
 
             <div class="flex-item-main-subsidebar" style={{fontWeight: "bold"}}>
-                    Backhoe Loader
+            <Link to="/wheel_loader" style={{color: "#000000"}}> Backhoe Loader</Link>
 			</div>
 
             <div class="flex-item-main-subsidebar" style={{marginLeft: "0px"}}>
-                Bucket Capacity 1.0CU.m 
+            <Link to="/wheel_loader" style={{color: "#000000"}}>Bucket Capacity 1.0CU.m </Link>
 			</div>
  
             <div class="flex-item-main-subsidebar" style={{fontWeight: "bold"}}>
                    
-                    Vibratory/Road Rollers 
+            <Link to="/wheel_loader" style={{color: "#000000"}}> Vibratory/Road Rollers </Link>
 
 			</div>
 
             <div class="flex-item-main-subsidebar" style={{marginLeft: "0px"}}>
-                Double Drum 3 Ton  
+            <Link to="/wheel_loader" style={{color: "#000000"}}> Double Drum 3 Ton  </Link>
 			</div>
 
             <div class="flex-item-main-subsidebar" style={{marginLeft: "0px"}}>
-                Single Drum 10 Ton   
+            <Link to="/forklift_mojdur" style={{color: "#000000"}}>  Single Drum 10 Ton </Link>  
 			</div>
 
             <div class="flex-item-main-subsidebar" style={{marginLeft: "0px"}}>
-                Single Drum 14 Ton
+            <Link to="/forklift_mojdur" style={{color: "#000000"}}> Single Drum 14 Ton</Link>
 			</div>
 		</div>
     )

@@ -101,6 +101,7 @@ const Main = () => {
             <Route path= "/dutonto_v6" component={Duronto_V6}/>
             <Route path= "/wheel_loader" component={Wheel_Loader}/>
             <Route path= "/wrecker" component={Wracker}/>
+            <Route path= "/prime_mover" component={Prime_mover}/>
             <Route path= "/scanner_universal" component={Scanner_Universal}/>
             <Route path= "/samrat" component={Samrat}/>
 

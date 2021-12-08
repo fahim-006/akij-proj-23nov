@@ -1,45 +1,47 @@
+import { Link } from "react-router-dom";
+
 const SubSide8 = () => {
     return(
    
             <div class="flex-container-main-subsidebar">
 			<div class="flex-item-main-subsidebar">
-                Refrigerator Van  
+            <Link to="/wrecker" style={{color: "#000000"}}>Refrigerator Van  </Link>
 			</div>
 
 			<div class="flex-item-main-subsidebar">
-                Garbage Truck  
+            <Link to="/wrecker" style={{color: "#000000"}}>Garbage Truck  </Link>
 			</div>
 
             <div class="flex-item-main-subsidebar">
-                Wrecker    
+            <Link to="/wrecker" style={{color: "#000000"}}> Wrecker  </Link>  
 			</div>
 
             <div class="flex-item-main-subsidebar">
-                Camper Trailer / Caravan       
+            <Link to="/wrecker" style={{color: "#000000"}}> Camper Trailer / Caravan   </Link>    
 			</div>
 
             <div class="flex-item-main-subsidebar">
-                Truck Mounted Crane        
+            <Link to="/wrecker" style={{color: "#000000"}}> Truck Mounted Crane </Link>       
 			</div>
 
             <div class="flex-item-main-subsidebar">
-                Oil/Water/Milk Tanker       
+            <Link to="/wrecker" style={{color: "#000000"}}> Oil/Water/Milk Tanker  </Link>     
 			</div>
 
             <div class="flex-item-main-subsidebar">
-                Sewerage Tanker      
+            <Link to="/wrecker" style={{color: "#000000"}}>Sewerage Tanker</Link>      
 			</div>
 
             <div class="flex-item-main-subsidebar">
-                Fire Fighting and Rescue Vehicles       
+            <Link to="/wrecker" style={{color: "#000000"}}> Fire Fighting and Rescue Vehicles </Link>      
 			</div>
 
             <div class="flex-item-main-subsidebar">
-                Road Sweeper Truck       
+            <Link to="/wrecker" style={{color: "#000000"}}>Road Sweeper Truck </Link>      
 			</div>
 
             <div class="flex-item-main-subsidebar">
-                Vacuum Truck 4x2     
+            <Link to="/wrecker" style={{color: "#000000"}}>Vacuum Truck 4x2  </Link>   
 			</div> 
 		</div>
     )

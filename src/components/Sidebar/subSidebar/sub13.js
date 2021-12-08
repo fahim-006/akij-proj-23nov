@@ -1,36 +1,38 @@
+import { Link } from "react-router-dom";
+
 const SubSide13 = () => {
     return(
    
             <div class="flex-container-main-subsidebar">
 			<div class="flex-item-main-subsidebar">
-                Shomrat   
+            <Link to="/somrat" style={{color: "#000000"}}>Shomrat</Link>
 			</div>
 
 			<div class="flex-item-main-subsidebar">
-                Durjoy  
+            <Link to="/somrat" style={{color: "#000000"}}>Durjoy</Link>
 			</div>
 
             <div class="flex-item-main-subsidebar">
-                Ponkhiraj  
+            <Link to="/somrat" style={{color: "#000000"}}> Ponkhiraj</Link>
 			</div>
 
             <div class="flex-item-main-subsidebar">
-                Durbar        
+            <Link to="/dutonto_v6" style={{color: "#000000"}}>Durbar</Link>     
 			</div>
 
             <div class="flex-item-main-subsidebar">
-                Sathi      
+            <Link to="/dutonto_v6" style={{color: "#000000"}}>Sathi</Link>
 			</div>
 
             <div class="flex-item-main-subsidebar">
-                Duronto        
+            <Link to="/dutonto_v6" style={{color: "#000000"}}>Duronto</Link>   
 			</div>
 
             <div class="flex-item-main-subsidebar">
-                Durdanto v6         
+            <Link to="/dutonto_v6" style={{color: "#000000"}}>Durdanto v6 </Link>        
 			</div>
             <div class="flex-item-main-subsidebar">
-                Bondhu         
+            <Link to="/dutonto_v6" style={{color: "#000000"}}>Bondhu</Link>         
 			</div>
 		</div>
     )
