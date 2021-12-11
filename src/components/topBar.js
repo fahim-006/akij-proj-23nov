@@ -21,6 +21,7 @@ const Topbar = () => {
                     <div className="item1-menu"> <li className="navLi"><a href="https://www.akij.net/">AKIJ GROUP</a></li></div>
                     <div className="item1-menu">  <li className="navLi"><a href="/aboutus">ABOUT US</a></li></div>
                     <div className="item1-menu"> <li className="navLi"><a href="/">HOME</a></li></div>
+                    {/*
                     <div className="item1-menu"> <li className="navLi">
                         
                     <div className="hidden pr-2 cursor-pointer md:block">
@@ -29,7 +30,10 @@ const Topbar = () => {
                             <GoSearch onMouseOver={() => setSearchBar1(!searchBar1)}/>
 
                         </div>
-                    </div></li></div>
+                    </div></li>
+                    </div>
+
+                    */}
                  
                 </div>
             </div>
