@@ -32,23 +32,23 @@ const Carousel = () => {
                <img src="images/slider/Home/1-min.jpg" alt="" srcset="" />
              </div>
              <div className="slider-image1" style={{border:'1px solid red'}}>
-             <img src="images/slider/Home/2-min.jpg" alt="" srcset="" />
+             <img className="img-fluid" src="images/slider/Home/2-min.jpg" alt="" srcset="" />
              </div>
 
              <div className="slider-image1">
-             <img src="images/slider/Home/3-min.jpg" alt="" srcset="" />
+             <img className="img-fluid" src="images/slider/Home/3-min.jpg" alt="" srcset="" />
              </div>
 
              <div className="slider-image1">
-             <img src="images/slider/Home/4-min.jpg" alt="" srcset="" />
+             <img className="img-fluid" src="images/slider/Home/4-min.jpg" alt="" srcset="" />
              </div>
 
              <div className="slider-image1">
-             <img src="images/slider/Home/5-min.jpg" alt="" srcset="" />
+             <img className="img-fluid" src="images/slider/Home/5-min.jpg" alt="" srcset="" />
              </div>
 
              <div className="slider-image1">
-             <img src="images/slider/Home/6-min.jpg" alt="" srcset="" />
+             <img className="img-fluid" src="images/slider/Home/6-min.jpg" alt="" srcset="" />
              </div>
 
              <div className="slider-image1">
@@ -56,27 +56,27 @@ const Carousel = () => {
              </div>
 
              <div className="slider-image1">
-             <img src="images/slider/Home/8-min.jpg" alt="" srcset="" />
+             <img className="img-fluid" src="images/slider/Home/8-min.jpg" alt="" srcset="" />
              </div>
 
              <div className="slider-image1">
-             <img src="images/slider/Home/9-min.jpg" alt="" srcset="" />
+             <img className="img-fluid" src="images/slider/Home/9-min.jpg" alt="" srcset="" />
              </div>
 
              <div className="slider-image1">
-             <img src="images/slider/Home/10-min.jpg" alt="" srcset="" />
+             <img className="img-fluid" src="images/slider/Home/10-min.jpg" alt="" srcset="" />
              </div>
 
              <div className="slider-image1">
-             <img src="images/slider/Home/11-min.jpg" alt="" srcset="" />
+             <img className="img-fluid" src="images/slider/Home/11-min.jpg" alt="" srcset="" />
              </div>
 
              <div className="slider-image1">
-             <img src="images/slider/Home/12-min.jpg" alt="" srcset="" />
+             <img className="img-fluid" src="images/slider/Home/12-min.jpg" alt="" srcset="" />
              </div>
 
              <div className="slider-image1">
-             <img src="images/slider/Home/13-min.jpg" alt="" srcset="" />
+             <img className="img-fluid" src="images/slider/Home/13-min.jpg" alt="" srcset="" />
              </div>
 
            
