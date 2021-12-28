@@ -1,0 +1,285 @@
+.feater__btn {
+    padding: 6px 66px;
+    border: none;
+    background-color: #ea2224;
+    color: white;
+    border-radius: 35px;
+  }
+  .new__relese {
+    color: white;
+    padding-bottom: 50px;
+    background: transparent
+      linear-gradient(110deg, #000000 0%, #40081e 52%, #000000 100%) 0% 0%
+      no-repeat padding-box;
+    .new__relese__content {
+      h3 {
+        font-weight: 400;
+        position: relative;
+        // align-items: ;
+        &::after {
+          content: "";
+          position: absolute;
+          top: 40px;
+          left: 40%;
+          height: 2px;
+          width: 93px;
+          background-color: #ea2224;
+        }
+      }
+      p {
+        margin-bottom: 4px;
+      }
+    }
+  }
+  .sathi__area {
+    button {
+      border: none;
+      background-color: #ea2224;
+      color: white;
+      padding: 2px 10px;
+      margin-top: 3px;
+    }
+    h3 {
+      color: #ea2224;
+    }
+    padding-top: 90px;
+    padding-bottom: 90px;
+    .sathi__imgarea {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .sathi__bg {
+        width: 274px;
+        height: 350px;
+        background-color: #ea2224;
+      }
+      .sathi__img {
+        margin-left: -220px !important;
+        height: 272px;
+        background-color: white;
+      }
+    }
+  }
+  .youtube__video {
+    padding: 20px 0px;
+    .video-responsive {
+      height: 544px;
+    }
+    button {
+      margin-top: 3px;
+      padding: 3px 10px;
+      border: none;
+      background-color: #ea2224;
+      color: white;
+    }
+  }
+  .choose {
+    padding: 90px 0px;
+    h3 {
+      color: #ea2224;
+      position: relative;
+      &::before {
+        content: "";
+        position: absolute;
+        width: 72px;
+        height: 6px;
+        top: -20px;
+        background-color: #fb5d5e;
+      }
+    }
+    .choose__imgarea {
+      display: flex;
+      align-items: center;
+      .choose__bg {
+        width: 275px;
+        height: 355px;
+        background: #ea2224 0% 0% no-repeat padding-box;
+      }
+      .choose__img {
+        margin-left: -230px;
+      }
+    }
+  }
+  .benefit-e-bike {
+    width: 100%;
+    .b-banner {
+      width: 100%;
+      background-color: #f6f6f6;
+      .b-banner-img {
+        width: 100%;
+        padding: 30px 0px;
+      }
+    }
+    .b-card-container {
+      width: 100%;
+      background-color: #f6f6f6;
+      .b-title {
+        color: #14478d;
+        padding-top: 50px;
+      }
+      .b-cards {
+        margin-top: 50px;
+  
+        .b-card {
+          border-radius: 30px;
+          background-color: #ea2224;
+          color: #ffffff;
+          margin: 20px;
+          .order {
+            padding: 20px 0px;
+          }
+          .b-card-title {
+          }
+          .b-desc {
+            padding: 20px;
+            text-align: left;
+            letter-spacing: 1px;
+          }
+        }
+      }
+    }
+  }
+  .history__area {
+    padding-bottom: 40px;
+    background-color: #f6f6f6;
+  
+    .history__card {
+      background-color: white;
+      box-shadow: 0px 6px 6px #00000029;
+      h3 {
+        color: #ea2224;
+      }
+      .history__img {
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+  .helmet-banner {
+    width: 100%;
+    margin-top: 50px;
+    .helmet-banner-img {
+      width: 100%;
+    }
+  }
+  
+  .haritage-container {
+    padding: 50px 0px;
+  
+    .haritage {
+      border-radius: 15px;
+      background-color: #f5f5f5;
+      width: 49%;
+      margin-right: 2%;
+      .h-texts {
+        flex: 1;
+        text-align: left;
+        padding-top: 50px;
+        padding-left: 50px;
+        .h-style {
+        }
+        .h-title {
+          padding-top: 15px;
+          padding-bottom: 45px;
+        }
+        .h-btn {
+          background-color: #ea2224;
+          color: #ffffff;
+          padding: 10px 35px;
+          border: 0px;
+          border-radius: 35px;
+          font-size: 20px;
+        }
+      }
+      .h-img {
+        flex: 1;
+      }
+    }
+    .jacket {
+      border-radius: 15px;
+      background-color: #f5f5f5;
+      width: 49%;
+      .h-texts {
+        flex: 1;
+        text-align: left;
+        padding-top: 50px;
+        padding-left: 50px;
+        .h-style {
+        }
+        .h-title {
+          padding-top: 15px;
+          padding-bottom: 45px;
+        }
+        .h-btn {
+          background-color: #ea2224;
+          color: #ffffff;
+          padding: 10px 35px;
+          border: 0px;
+          border-radius: 35px;
+          font-size: 20px;
+        }
+      }
+      .h-img {
+        flex: 1;
+      }
+    }
+  }
+  .blog {
+    width: 100%;
+    height: 743px;
+    .blog-text {
+      padding-top: 50px;
+      .news {
+        font-size: 14px;
+        color: #ea2224;
+      }
+      .blog-title {
+        font-size: 45px;
+        font-weight: 700;
+      }
+    }
+    .blog-cards {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      align-items: center;
+      justify-content: center;
+      padding-top: 50px;
+      .card {
+        border: 0px;
+        height: 450px;
+        overflow: hidden;
+        margin: 20px;
+        .card-img-top {
+          width: 100%;
+          height: 230px;
+        }
+        .card-body {
+          text-align: left;
+          .card-title {
+            padding: 10px 0px;
+          }
+          .date {
+            font-size: 14px;
+          }
+          .card-text {
+            font-size: 14px;
+            padding: 0px;
+          }
+          .b-btn {
+            color: #ea2224;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+
+  
+@media screen and (max-width: 800px) {
+  .h-img{
+    display: none;
+  }
+}
+

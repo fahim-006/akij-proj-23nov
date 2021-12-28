@@ -1,0 +1,23 @@
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .title__underline {
+    h1 {
+      font-weight: 400;
+      color: #14478d;
+    }
+    .underline__one {
+      width: 123px;
+      height: 4px;
+      background-color: #c50000;
+    }
+    .underline__two {
+      margin-top: 10px;
+      width: 75px;
+      height: 4px;
+      background-color: #c50000;
+    }
+  }
+}
