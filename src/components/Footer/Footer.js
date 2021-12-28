@@ -7,6 +7,14 @@ import Map from "./images/footerMap.PNG";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
+  function makeFile() {
+    return {
+     mime: 'text/plain',
+     filename: 'Official-Presentation.ppsx',
+     contents: 'all of the exports',
+    }
+  }
+  
   return (
     <div className="footer">
       <div className="container-fluid">
@@ -66,7 +74,9 @@ const Footer = () => {
 
               <div class="flex-item-footer-link">Calculator</div>
 
-              <div class="flex-item-footer-link">Powerpoint(PPTX)</div>
+              <div class="flex-item-footer-link"  genFile={makeFile}>
+                <a className="footer-link" href="/pptx/Official-Presentation.ppsx">Powerpoint(PPTX)</a> 
+                </div>
             </div>
           </div>
           <div className="col-lg-3 col-md-12 col-sm-12 d-flex">
